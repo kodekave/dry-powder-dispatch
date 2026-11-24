@@ -36,3 +36,7 @@ Copy a folder in `explainers/`, edit its `index.html`, then add it to `explainer
 - Explainers are drafts with illustrative examples; review before relying on them.
 - `KIT_FORM_URL` in `js/site.js` is the Kit form that collects signups. Set `SUBSCRIBER_COUNT` only to a real number.
 - Optional: add `assets/og-card.png` and an Open Graph image tag.
+
+## Brand
+
+The mark is a lighthouse inside a postmark ring ("Follow the capital. Find the frontier."). Source files live in `assets/brand/`: `logo-mark.svg` (header and footer mark, uses `currentColor`), `favicon.svg`, `favicon.ico`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`. The social-share image is `assets/og-card.png` (1200x630) and `site.webmanifest` lists the home-screen icons. When changing CSS or JS, bump the `?v=` token on the stylesheet and script links in each page so browsers drop cached copies.

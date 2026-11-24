@@ -7,6 +7,7 @@
 /* ---------- Header (Very Frontier style: mark + wordmark left, mono nav right) ---------- */
 .site-brand { display: inline-flex; align-items: center; gap: 0.55rem; font-size: 1.05rem; white-space: nowrap; }
 .brand-mark { flex: none; color: var(--color-ink); }
+.footer-brand { display: flex; align-items: center; gap: 0.7rem; }
 .site-header-inner { min-height: 3.5rem; }
 .nav-link {
   font-family: var(--font-mono-stack); font-size: 0.75rem; letter-spacing: 0.09em;
@@ -17,7 +18,7 @@
 @media (max-width: 480px) {
   .site-header-inner { gap: 0.4rem; }
   .site-brand { font-size: 0.9rem; gap: 0.4rem; }
-  .brand-mark { width: 18px; height: 18px; }
+  .brand-mark { width: 24px; height: 24px; }
   .btn-subscribe { margin-inline: 0; padding-inline: 0.7rem; }
   .theme-toggle, .menu-btn { width: 2.25rem; height: 2.25rem; }
 }
