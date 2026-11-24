@@ -121,7 +121,10 @@
     ].join("");
     return `
       <li class="deal-card${hasUrl ? " has-link" : ""}">
-        <div class="deal-card-img"><img src="${escapeHtml(assetsBase)}${artFor(deal)}.svg" alt="" width="400" height="250" loading="lazy" decoding="async" /></div>
+        <div class="deal-card-img">
+          <img class="img-light" src="${escapeHtml(assetsBase)}${artFor(deal)}.webp" alt="" width="1000" height="625" loading="lazy" decoding="async" />
+          <img class="img-dark" src="${escapeHtml(assetsBase)}${artFor(deal)}-dark.webp" alt="" width="1000" height="625" loading="lazy" decoding="async" />
+        </div>
         <div class="featured-meta">${meta}</div>
         <h3 class="deal-card-title">${title}</h3>
         <div class="deal-card-foot"><span class="deal-amount tabular">${escapeHtml(formatAmount(deal))}</span>${chips}${deal.sample ? `<span class="tag-chip" title="Sample entry">Sample</span>` : ""}</div>

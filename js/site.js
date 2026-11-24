@@ -3,15 +3,14 @@
  * - Theme state synced with <html data-theme="light|dark"> and localStorage["theme"]
  * - Mobile navigation toggle
  * - Live world clocks (BLR, SF, LDN, NY) updating every second
- * - Substack signup handoff with config placeholder support
+ * - Kit (ConvertKit) signup: posts the email to the Kit form, no page redirect
  */
 
 (function () {
   "use strict";
 
-  // Set to the publication used for signups (currently the main site newsletter). To use a dedicated
-  // publication later, e.g. "https://drypowderdispatch.substack.com".
-  const SUBSTACK_URL = "https://komalkedarnath.substack.com";
+  // Kit form that collects subscribers (from https://dry-powder-dispatch.kit.com/13ad0a475a).
+  const KIT_FORM_URL = "https://app.kit.com/forms/10237748/subscriptions";
 
   // Optional subscriber count: keep null so no count line is shown until set to a real number.
   const SUBSCRIBER_COUNT = null;
@@ -122,15 +121,6 @@
     window.setInterval(tick, 1000);
   }
 
-  function buildSubstackUrl(email) {
-    const trimmedBase = SUBSTACK_URL.trim().replace(/\/+$/, "");
-    if (!trimmedBase) return "";
-    const params = new URLSearchParams();
-    if (email) params.set("email", email);
-    const query = params.toString();
-    return `${trimmedBase}/subscribe${query ? `?${query}` : ""}`;
-  }
-
   function initSignups() {
     document.querySelectorAll("[data-subscriber-count]").forEach((el) => {
       if (typeof SUBSCRIBER_COUNT === "number" && Number.isFinite(SUBSCRIBER_COUNT) && SUBSCRIBER_COUNT > 0) {
@@ -149,17 +139,23 @@
       form.addEventListener("submit", (e) => {
         e.preventDefault();
         const email = input ? input.value.trim() : "";
-        const target = buildSubstackUrl(email);
-        if (!target) {
-          if (status) {
-            status.textContent = "Newsletter handoff is not configured yet (TODO: set SUBSTACK_URL in js/site.js).";
-          }
-          return;
-        }
-        if (status) {
-          status.textContent = "Opening Substack to confirm your subscription…";
-        }
-        window.location.href = target;
+        if (!email) return;
+        const button = form.querySelector('button[type="submit"]');
+        if (button) button.disabled = true;
+        if (status) status.textContent = "Subscribing…";
+        const body = new URLSearchParams({ email_address: email });
+        // Kit's form endpoint does not send CORS headers, so the reply is opaque; a resolved request means it was delivered.
+        fetch(KIT_FORM_URL, { method: "POST", mode: "no-cors", body })
+          .then(() => {
+            if (status) status.textContent = "Almost done. Check your inbox and confirm your email.";
+            form.reset();
+          })
+          .catch(() => {
+            if (status) status.textContent = "Could not subscribe just now. Please try again in a moment.";
+          })
+          .finally(() => {
+            if (button) button.disabled = false;
+          });
       });
     });
   }
@@ -198,13 +194,12 @@
   });
 
   window.DryPowderDispatch = Object.freeze({
-    get SUBSTACK_URL() {
-      return SUBSTACK_URL;
+    get KIT_FORM_URL() {
+      return KIT_FORM_URL;
     },
     get SUBSCRIBER_COUNT() {
       return SUBSCRIBER_COUNT;
     },
     applyTheme,
-    buildSubstackUrl,
   });
 })();

@@ -13,7 +13,7 @@ about/                editor, coverage, standards, corrections
 css/tokens.css        palette + fonts copied from the main site (light + dark)
 css/base.css          layout, header, clocks, footer, controls
 css/pages.css         page-level styles
-js/site.js            theme sync, clocks, mobile nav, Substack handoff (config at top)
+js/site.js            theme sync, clocks, mobile nav, Kit signup (config at top)
 js/deals.js           renders the deals feed from data/deals.json
 data/deals.json       the feed (all entries currently fictional samples)
 assets/               original SVG art; feed.xml, sitemap.xml, robots.txt at root
@@ -34,5 +34,5 @@ Copy a folder in `explainers/`, edit its `index.html`, then add it to `explainer
 ## To do
 - Replace the sample deals with real, sourced ones.
 - Explainers are drafts with illustrative examples; review before relying on them.
-- `SUBSTACK_URL` in `js/site.js` points at the main-site newsletter; set a dedicated one if you create it. Set `SUBSCRIBER_COUNT` only to a real number.
+- `KIT_FORM_URL` in `js/site.js` is the Kit form that collects signups. Set `SUBSCRIBER_COUNT` only to a real number.
 - Optional: add `assets/og-card.png` and an Open Graph image tag.
