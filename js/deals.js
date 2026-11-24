@@ -111,9 +111,6 @@
     const sectors = Array.isArray(deal.sectors) ? deal.sectors : [];
     const chips = sectors.map((s) => `<span class="tag-chip">${escapeHtml(s)}</span>`).join("");
     const hasUrl = /^https?:\/\//i.test(String(deal.source_url || ""));
-    // Optional real photo per deal: set "image" in deals.json to an https URL or an assets/ path. It is shown in grayscale.
-    const own = /^(https:\/\/|assets\/)/.test(String(deal.image || "")) && !String(deal.image).includes("..");
-    const imgSrc = own ? deal.image : `${assetsBase}${artFor(deal)}.webp`;
     const title = hasUrl
       ? `<a href="${escapeHtml(deal.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(deal.headline)}</a>`
       : escapeHtml(deal.headline);
@@ -124,7 +121,10 @@
     ].join("");
     return `
       <li class="deal-card${hasUrl ? " has-link" : ""}">
-        <div class="deal-card-img"><img src="${escapeHtml(imgSrc)}" alt="" width="1000" height="625" loading="lazy" decoding="async" /></div>
+        <div class="deal-card-img">
+          <img class="img-light" src="${escapeHtml(assetsBase)}${artFor(deal)}.webp" alt="" width="1000" height="625" loading="lazy" decoding="async" />
+          <img class="img-dark" src="${escapeHtml(assetsBase)}${artFor(deal)}-dark.webp" alt="" width="1000" height="625" loading="lazy" decoding="async" />
+        </div>
         <div class="featured-meta">${meta}</div>
         <h3 class="deal-card-title">${title}</h3>
         <div class="deal-card-foot"><span class="deal-amount tabular">${escapeHtml(formatAmount(deal))}</span>${chips}${deal.sample ? `<span class="tag-chip" title="Sample entry">Sample</span>` : ""}</div>
