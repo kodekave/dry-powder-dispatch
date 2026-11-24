@@ -137,8 +137,8 @@
         el.textContent = `${SUBSCRIBER_COUNT.toLocaleString("en-US")} subscribers`;
         el.hidden = false;
       } else {
-        el.textContent = "";
-        el.hidden = true;
+        el.textContent = "Early readers list is open. Be one of the first.";
+        el.hidden = false;
       }
     });
 

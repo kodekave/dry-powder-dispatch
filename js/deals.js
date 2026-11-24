@@ -95,6 +95,40 @@
     `;
   }
 
+
+  const SECTOR_ART = {
+    "fintech": "fintech", "climate": "climate", "ai infra": "ai-infra", "deep tech": "deep-tech", "saas": "saas",
+    "health": "health", "defense and space": "defense-space", "ai apps": "ai-apps", "consumer": "consumer",
+  };
+
+  function artFor(deal) {
+    if (String(deal.stage || "").toLowerCase() === "fund close") return "fund";
+    const first = Array.isArray(deal.sectors) && deal.sectors.length ? String(deal.sectors[0]).toLowerCase() : "";
+    return SECTOR_ART[first] || "general";
+  }
+
+  function renderDealCard(deal, assetsBase) {
+    const sectors = Array.isArray(deal.sectors) ? deal.sectors : [];
+    const chips = sectors.map((s) => `<span class="tag-chip">${escapeHtml(s)}</span>`).join("");
+    const hasUrl = /^https?:\/\//i.test(String(deal.source_url || ""));
+    const title = hasUrl
+      ? `<a href="${escapeHtml(deal.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(deal.headline)}</a>`
+      : escapeHtml(deal.headline);
+    const meta = [
+      `<time class="tabular" datetime="${escapeHtml(deal.date)}">${escapeHtml(deal.date)}</time>`,
+      `<span>${escapeHtml(deal.stage || "Stage n/a")}</span>`,
+      deal.region ? `<span>${escapeHtml(deal.region)}</span>` : "",
+    ].join("");
+    return `
+      <li class="deal-card${hasUrl ? " has-link" : ""}">
+        <div class="deal-card-img"><img src="${escapeHtml(assetsBase)}${artFor(deal)}.svg" alt="" width="400" height="250" loading="lazy" decoding="async" /></div>
+        <div class="featured-meta">${meta}</div>
+        <h3 class="deal-card-title">${title}</h3>
+        <div class="deal-card-foot"><span class="deal-amount tabular">${escapeHtml(formatAmount(deal))}</span>${chips}${deal.sample ? `<span class="tag-chip" title="Sample entry">Sample</span>` : ""}</div>
+      </li>
+    `;
+  }
+
   function syncSampleBanner(deals) {
     const banner = document.getElementById("sample-notice");
     if (!banner) return;
@@ -108,6 +142,12 @@
 
     if (!items.length) {
       container.innerHTML = `<p class="mono-meta">No deals logged yet.</p>`;
+      return;
+    }
+
+    if (container.getAttribute("data-layout") === "cards") {
+      const base = container.getAttribute("data-assets") || "assets/sector/";
+      container.innerHTML = `<ul class="deal-grid">${items.map((d) => renderDealCard(d, base)).join("")}</ul>`;
       return;
     }
 
