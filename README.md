@@ -36,3 +36,7 @@ Copy a folder in `explainers/`, edit its `index.html`, then add it to `explainer
 - Explainers are drafts with illustrative examples; review before relying on them.
 - `KIT_FORM_URL` in `js/site.js` is the Kit form that collects signups. Set `SUBSCRIBER_COUNT` only to a real number.
 - Optional: add `assets/og-card.png` and an Open Graph image tag.
+
+## Pictures on the Latest deals blocks
+
+Each block shows a black-and-white studio picture chosen by sector (`assets/sector/`). To use a real photo for one deal, add an `"image"` field to its entry in `data/deals.json`, either an `https://` URL or a path under `assets/` (for example `"assets/news/northwind.jpg"`). The page converts it to grayscale automatically. Only use photos you have the rights to.
