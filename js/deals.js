@@ -81,7 +81,7 @@
     return `
       <li class="deal-row">
         <div class="deal-main">
-          <time class="deal-date tabular" datetime="${escapeHtml(deal.date)}">${escapeHtml(deal.date)}</time>
+          <time class="deal-date tabular" datetime="${escapeHtml(deal.date)}">${escapeHtml(deal.date_note || deal.date)}</time>
           <a class="deal-headline" href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(deal.headline)}</a>
         </div>
         <div class="deal-meta">
@@ -115,7 +115,7 @@
       ? `<a href="${escapeHtml(deal.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(deal.headline)}</a>`
       : escapeHtml(deal.headline);
     const meta = [
-      `<time class="tabular" datetime="${escapeHtml(deal.date)}">${escapeHtml(deal.date)}</time>`,
+      `<time class="tabular" datetime="${escapeHtml(deal.date)}">${escapeHtml(deal.date_note || deal.date)}</time>`,
       `<span>${escapeHtml(deal.stage || "Stage n/a")}</span>`,
       deal.region ? `<span>${escapeHtml(deal.region)}</span>` : "",
     ].join("");

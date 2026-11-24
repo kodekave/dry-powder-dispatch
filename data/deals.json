@@ -1,198 +1,579 @@
 [
   {
-    "id": "sample-001",
-    "date": "2026-11-18",
-    "company": "Northwind Freight",
-    "headline": "Northwind Freight raises $6M seed to digitise Indian trucking invoices",
-    "amount_usd": 6000000,
+    "id": "isomorphic",
+    "date": "2026-11-22",
+    "company": "Isomorphic Labs",
+    "headline": "Isomorphic Labs raises $5B Series C for AI drug discovery",
+    "amount_usd": 5000000000,
     "currency_note": "",
-    "stage": "Seed",
+    "stage": "Series C+",
     "sectors": [
-      "fintech"
+      "health",
+      "AI apps"
     ],
-    "region": "India",
+    "region": "Europe",
     "lead_investors": [
-      "Fictional Lead Partners"
+      "Greenoaks",
+      "Sequoia Capital"
     ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
+    "source_label": "StartupHub",
+    "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
+    "date_note": "Nov 16–22, 2026"
   },
   {
-    "id": "sample-002",
-    "date": "2026-11-16",
-    "company": "Kestrel Grid Systems",
-    "headline": "Kestrel Grid Systems closes $24M Series A for utility telemetry",
-    "amount_usd": 24000000,
+    "id": "bending-spoons",
+    "date": "2026-11-22",
+    "company": "Bending Spoons",
+    "headline": "Bending Spoons raises $1.3B in a private placement",
+    "amount_usd": 1300000000,
     "currency_note": "",
-    "stage": "Series A",
+    "stage": "Growth",
     "sectors": [
-      "climate"
+      "consumer"
+    ],
+    "region": "Europe",
+    "lead_investors": [],
+    "source_label": "StartupHub",
+    "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
+    "date_note": "Nov 16–22, 2026"
+  },
+  {
+    "id": "shield-ai",
+    "date": "2026-11-22",
+    "company": "Shield AI",
+    "headline": "Shield AI raises $1B Series H for autonomous aircraft systems",
+    "amount_usd": 1000000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "defense and space"
     ],
     "region": "US",
     "lead_investors": [
-      "Fictional Lead Partners"
+      "Innovation X Advisors"
     ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
+    "source_label": "StartupHub",
+    "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
+    "date_note": "Nov 16–22, 2026"
   },
   {
-    "id": "sample-003",
-    "date": "2026-11-14",
-    "company": "Banyan Compute",
-    "headline": "Banyan Compute raises $11M seed for inference routing software",
-    "amount_usd": 11000000,
+    "id": "genesis-ai",
+    "date": "2026-11-22",
+    "company": "Genesis AI",
+    "headline": "Genesis AI raises $500M Series A for generalist robots and a physical-AI foundation model",
+    "amount_usd": 500000000,
     "currency_note": "",
+    "stage": "Series A",
+    "sectors": [
+      "deep tech",
+      "AI infra"
+    ],
+    "region": "US",
+    "lead_investors": [
+      "Khosla Ventures",
+      "Premji Invest",
+      "Eclipse Ventures"
+    ],
+    "source_label": "StartupHub",
+    "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
+    "date_note": "Nov 16–22, 2026"
+  },
+  {
+    "id": "science-corp",
+    "date": "2026-11-22",
+    "company": "Science Corporation",
+    "headline": "Science Corporation raises $400M Series D for brain-computer interfaces",
+    "amount_usd": 400000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "health"
+    ],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "StartupHub",
+    "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
+    "date_note": "Nov 16–22, 2026"
+  },
+  {
+    "id": "payhawk",
+    "date": "2026-11-22",
+    "company": "Payhawk",
+    "headline": "Payhawk raises $280M Series C for spend management",
+    "amount_usd": 280000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "fintech"
+    ],
+    "region": "Europe",
+    "lead_investors": [
+      "Goldman Sachs Growth"
+    ],
+    "source_label": "StartupHub",
+    "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
+    "date_note": "Nov 16–22, 2026"
+  },
+  {
+    "id": "model-ml",
+    "date": "2026-11-22",
+    "company": "Model ML",
+    "headline": "Model ML raises $250M Series B for a custom-model platform",
+    "amount_usd": 250000000,
+    "currency_note": "",
+    "stage": "Series B",
+    "sectors": [
+      "AI infra"
+    ],
+    "region": "US",
+    "lead_investors": [
+      "General Atlantic",
+      "QED Investors"
+    ],
+    "source_label": "StartupHub",
+    "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
+    "date_note": "Nov 16–22, 2026"
+  },
+  {
+    "id": "stark",
+    "date": "2026-11-22",
+    "company": "Stark Future",
+    "headline": "Stark Future raises $162M growth round for electric motorcycles",
+    "amount_usd": 162000000,
+    "currency_note": "",
+    "stage": "Growth",
+    "sectors": [
+      "consumer",
+      "climate"
+    ],
+    "region": "Europe",
+    "lead_investors": [
+      "Highland Europe"
+    ],
+    "source_label": "StartupHub",
+    "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
+    "date_note": "Nov 16–22, 2026"
+  },
+  {
+    "id": "dreamteam",
+    "date": "2026-11-17",
+    "company": "Dreamteam",
+    "headline": "Dreamteam raises $53M for an AI-first CRM from former Freshworks leaders",
+    "amount_usd": 53000000,
+    "currency_note": "",
+    "stage": "",
+    "sectors": [
+      "SaaS",
+      "AI apps"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Together Fund",
+      "Accel",
+      "Premji Invest"
+    ],
+    "source_label": "StartupTalky",
+    "source_url": "https://startuptalky.com/news/daily-indian-funding-roundup-key-news-17-november-2026/",
+    "date_note": "around Nov 17, 2026"
+  },
+  {
+    "id": "countai",
+    "date": "2026-11-17",
+    "company": "CountAI",
+    "headline": "CountAI raises ₹10 crore seed for AI quality inspection on factory floors",
+    "amount_usd": null,
+    "currency_note": "₹10 crore",
     "stage": "Seed",
+    "sectors": [
+      "deep tech"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Equirus InnovateX Fund"
+    ],
+    "source_label": "StartupTalky",
+    "source_url": "https://startuptalky.com/news/daily-indian-funding-roundup-key-news-17-november-2026/",
+    "date_note": "around Nov 17, 2026"
+  },
+  {
+    "id": "johnaic",
+    "date": "2026-11-17",
+    "company": "JohnAIC",
+    "headline": "JohnAIC raises $1.9M pre-seed for AI servers companies run in their own offices",
+    "amount_usd": 1900000,
+    "currency_note": "",
+    "stage": "Pre-seed",
     "sectors": [
       "AI infra"
     ],
     "region": "India",
     "lead_investors": [
-      "Fictional Lead Partners"
+      "Crane Venture Partners",
+      "Neon Fund"
     ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
+    "source_label": "StartupTalky",
+    "source_url": "https://startuptalky.com/news/daily-indian-funding-roundup-key-news-17-november-2026/",
+    "date_note": "around Nov 17, 2026"
   },
   {
-    "id": "sample-004",
-    "date": "2026-11-11",
-    "company": "Linden Biologics",
-    "headline": "Linden Biologics signs $42M Series B for diagnostics workflow",
-    "amount_usd": 42000000,
-    "currency_note": "",
-    "stage": "Series B",
-    "sectors": [
-      "health"
-    ],
-    "region": "Europe",
-    "lead_investors": [
-      "Fictional Lead Partners"
-    ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
-  },
-  {
-    "id": "sample-005",
-    "date": "2026-11-09",
-    "company": "Mariner Maritime Analytics",
-    "headline": "Mariner Maritime Analytics raises $8.5M Seed for port turnarounds",
-    "amount_usd": 8500000,
-    "currency_note": "",
-    "stage": "Seed",
-    "sectors": [
-      "deep tech"
-    ],
-    "region": "SE Asia",
-    "lead_investors": [
-      "Fictional Lead Partners"
-    ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
-  },
-  {
-    "id": "sample-006",
-    "date": "2026-11-06",
-    "company": "Vespera Capital",
-    "headline": "Vespera Capital closes $180M Fund II for early-stage software",
-    "amount_usd": 180000000,
-    "currency_note": "",
-    "stage": "Fund close",
-    "sectors": [
-      "SaaS"
-    ],
-    "region": "US",
-    "lead_investors": [],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
-  },
-  {
-    "id": "sample-007",
-    "date": "2026-11-04",
-    "company": "Aravalli Orbital",
-    "headline": "Aravalli Orbital raises $15M Series A for optical earth observation",
-    "amount_usd": 15000000,
-    "currency_note": "",
-    "stage": "Series A",
-    "sectors": [
-      "defense and space"
-    ],
-    "region": "India",
-    "lead_investors": [
-      "Fictional Lead Partners"
-    ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
-  },
-  {
-    "id": "sample-008",
-    "date": "2026-11-02",
-    "company": "Cinder & Reed",
-    "headline": "Cinder & Reed raises $4.2M Pre-seed for compliance copilots",
-    "amount_usd": 4200000,
+    "id": "lemonpeel",
+    "date": "2026-11-17",
+    "company": "Lemonpeel",
+    "headline": "Lemonpeel raises $1M pre-seed for AI video agents for brands",
+    "amount_usd": 1000000,
     "currency_note": "",
     "stage": "Pre-seed",
     "sectors": [
       "AI apps"
     ],
-    "region": "Europe",
+    "region": "India",
     "lead_investors": [
-      "Fictional Lead Partners"
+      "Shastra VC"
     ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
+    "source_label": "StartupTalky",
+    "source_url": "https://startuptalky.com/news/daily-indian-funding-roundup-key-news-17-november-2026/",
+    "date_note": "around Nov 17, 2026"
   },
   {
-    "id": "sample-009",
-    "date": "2026-10-29",
-    "company": "Qadir Logistics Tech",
-    "headline": "Qadir Logistics Tech raises $9M Seed for Gulf customs clearance",
-    "amount_usd": 9000000,
-    "currency_note": "",
-    "stage": "Seed",
+    "id": "finny",
+    "date": "2026-11-17",
+    "company": "finny.club",
+    "headline": "finny.club raises ₹5.3 crore angel round for an AI personal CFO",
+    "amount_usd": null,
+    "currency_note": "₹5.3 crore",
+    "stage": "",
     "sectors": [
       "fintech"
     ],
-    "region": "Middle East",
+    "region": "India",
     "lead_investors": [
-      "Fictional Lead Partners"
+      "Ramanathan RV",
+      "Anil Goel",
+      "Uday Sodhi"
     ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
+    "source_label": "StartupTalky",
+    "source_url": "https://startuptalky.com/news/daily-indian-funding-roundup-key-news-17-november-2026/",
+    "date_note": "around Nov 17, 2026"
   },
   {
-    "id": "sample-010",
-    "date": "2026-10-26",
-    "company": "Birch & Loom",
-    "headline": "Birch & Loom raises $19M Series A for home pantry subscription",
-    "amount_usd": 19000000,
+    "id": "bharat-semi",
+    "date": "2026-11-16",
+    "company": "Bharat Semi",
+    "headline": "Bharat Semi raises $24M seed for AI sensors for cameras, robots and drones",
+    "amount_usd": 24000000,
     "currency_note": "",
-    "stage": "Series A",
+    "stage": "Seed",
     "sectors": [
-      "consumer"
+      "deep tech"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Info Edge",
+      "South Park Commons",
+      "Indus Bridge Ventures"
+    ],
+    "source_label": "StartupTalky",
+    "source_url": "https://startuptalky.com/news/daily-indian-funding-roundup-key-news-16-november-2026/",
+    "date_note": "by Nov 16, 2026"
+  },
+  {
+    "id": "desible",
+    "date": "2026-11-16",
+    "company": "Desible.ai",
+    "headline": "Desible.ai raises ₹32 crore for AI customer service at banks and insurers",
+    "amount_usd": null,
+    "currency_note": "₹32 crore",
+    "stage": "",
+    "sectors": [
+      "AI apps",
+      "fintech"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Prime Venture Partners"
+    ],
+    "source_label": "StartupTalky",
+    "source_url": "https://startuptalky.com/news/daily-indian-funding-roundup-key-news-16-november-2026/",
+    "date_note": "by Nov 16, 2026"
+  },
+  {
+    "id": "kutlerri",
+    "date": "2026-11-16",
+    "company": "Kutlerri.ai",
+    "headline": "Kutlerri.ai raises $4M for AI sales agents for restaurants",
+    "amount_usd": 4000000,
+    "currency_note": "",
+    "stage": "",
+    "sectors": [
+      "AI apps"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Narahari Investments"
+    ],
+    "source_label": "StartupTalky",
+    "source_url": "https://startuptalky.com/news/daily-indian-funding-roundup-key-news-16-november-2026/",
+    "date_note": "by Nov 16, 2026"
+  },
+  {
+    "id": "morsa",
+    "date": "2026-11-16",
+    "company": "Morsa",
+    "headline": "Morsa raises $1.5M pre-seed for AI task tracking in factories",
+    "amount_usd": 1500000,
+    "currency_note": "",
+    "stage": "Pre-seed",
+    "sectors": [
+      "AI apps"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Jackson Square Ventures",
+      "a16z Scout Fund"
+    ],
+    "source_label": "StartupTalky",
+    "source_url": "https://startuptalky.com/news/daily-indian-funding-roundup-key-news-16-november-2026/",
+    "date_note": "by Nov 16, 2026"
+  },
+  {
+    "id": "vine-3",
+    "date": "2026-11-15",
+    "company": "Vine Ventures",
+    "headline": "Vine Ventures closes Fund III at $236M, about half for Israeli startups",
+    "amount_usd": 236000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [
+      "defense and space",
+      "AI apps"
+    ],
+    "region": "Middle East",
+    "lead_investors": [],
+    "source_label": "Private Equity List",
+    "source_url": "https://privateequitylist.com/intelligence/md/new-funds-week-2026-11-16",
+    "date_note": "Week of Nov 9–15, 2026"
+  },
+  {
+    "id": "zacua-2",
+    "date": "2026-11-15",
+    "company": "Zacua Ventures",
+    "headline": "Zacua Ventures closes Fund II at $135M with Volvo, Hilti and Holcim as LPs",
+    "amount_usd": 135000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [
+      "deep tech"
+    ],
+    "region": "",
+    "lead_investors": [],
+    "source_label": "Private Equity List",
+    "source_url": "https://privateequitylist.com/intelligence/md/new-funds-week-2026-11-16",
+    "date_note": "Week of Nov 9–15, 2026"
+  },
+  {
+    "id": "stage2",
+    "date": "2026-11-15",
+    "company": "Stage 2 Capital",
+    "headline": "Stage 2 Capital raises $100M across two funds for B2B AI",
+    "amount_usd": 100000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [
+      "AI apps"
+    ],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "Private Equity List",
+    "source_url": "https://privateequitylist.com/intelligence/md/new-funds-week-2026-11-16",
+    "date_note": "Week of Nov 9–15, 2026"
+  },
+  {
+    "id": "course-corrected-2",
+    "date": "2026-11-15",
+    "company": "Course Corrected",
+    "headline": "Course Corrected closes Fund II at €80M for Nordic and European climate software",
+    "amount_usd": 88000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [
+      "climate"
+    ],
+    "region": "Europe",
+    "lead_investors": [],
+    "source_label": "Private Equity List",
+    "source_url": "https://privateequitylist.com/intelligence/md/new-funds-week-2026-11-16",
+    "date_note": "Week of Nov 9–15, 2026"
+  },
+  {
+    "id": "touchstone",
+    "date": "2026-11-15",
+    "company": "Touchstone Partners",
+    "headline": "Touchstone Partners and HCM VIF set up a blended-finance fund of up to $100M in Vietnam",
+    "amount_usd": 100000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [
+      "deep tech",
+      "health"
+    ],
+    "region": "SE Asia",
+    "lead_investors": [],
+    "source_label": "Private Equity List",
+    "source_url": "https://privateequitylist.com/intelligence/md/new-funds-week-2026-11-16",
+    "date_note": "Week of Nov 9–15, 2026"
+  },
+  {
+    "id": "langchain",
+    "date": "2026-11-13",
+    "company": "LangChain",
+    "headline": "LangChain raises $300M Series C at a $3B valuation",
+    "amount_usd": 300000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "AI infra"
     ],
     "region": "US",
     "lead_investors": [
-      "Fictional Lead Partners"
+      "CapitalG"
     ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
+    "source_label": "TechCrunch",
+    "source_url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
   },
   {
-    "id": "sample-011",
-    "date": "2026-10-21",
-    "company": "Tessellate Robotics",
-    "headline": "Tessellate Robotics raises $55M Series C for warehouse picking arms",
-    "amount_usd": 55000000,
+    "id": "q-ctrl",
+    "date": "2026-11-13",
+    "company": "Q-CTRL",
+    "headline": "Q-CTRL raises about $290M (A$425M) Series C for quantum error suppression",
+    "amount_usd": 290000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "deep tech"
+    ],
+    "region": "Other",
+    "lead_investors": [
+      "Salesforce Ventures"
+    ],
+    "source_label": "Startup Daily",
+    "source_url": "https://www.startupdaily.net/topic/funding/quantum-of-unicorn-q-ctrl-hits-1-4-billion-valuation-from-425m-series-c/"
+  },
+  {
+    "id": "mirendil",
+    "date": "2026-11-12",
+    "company": "Mirendil",
+    "headline": "Mirendil raises $1B Series A to open up frontier AI research",
+    "amount_usd": 1000000000,
+    "currency_note": "",
+    "stage": "Series A",
+    "sectors": [
+      "AI infra"
+    ],
+    "region": "",
+    "lead_investors": [
+      "Kleiner Perkins",
+      "Clearlake Capital"
+    ],
+    "source_label": "PR Newswire",
+    "source_url": "https://www.prnewswire.com/news-releases/mirendil-raises-1b-to-democratize-frontier-ai-rd-302937248.html"
+  },
+  {
+    "id": "uforce",
+    "date": "2026-11-12",
+    "company": "UFORCE",
+    "headline": "UFORCE raises $700M Series A at a $6B valuation for autonomous defence systems",
+    "amount_usd": 700000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "defense and space"
+    ],
+    "region": "Europe",
+    "lead_investors": [
+      "Valor Equity Partners",
+      "UK National Wealth Fund"
+    ],
+    "source_label": "Tech.eu",
+    "source_url": "https://tech.eu/2026/11/12/ukrainian-defence-tech-uforce-raises-700m-series-a-at-6b-valuation/"
+  },
+  {
+    "id": "agile-robots",
+    "date": "2026-11-12",
+    "company": "Agile Robots",
+    "headline": "Agile Robots raises $500M Series F from SoftBank at an $8.5B valuation",
+    "amount_usd": 500000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "deep tech"
+    ],
+    "region": "Europe",
+    "lead_investors": [
+      "SoftBank"
+    ],
+    "source_label": "Tech Funding News",
+    "source_url": "https://techfundingnews.com/agile-robots-500m-series-f-softbank-8-5b-valuation/"
+  },
+  {
+    "id": "norwest-18",
+    "date": "2026-11-12",
+    "company": "Norwest",
+    "headline": "Norwest closes Norwest 18, a $4B fund, the largest in its 65-year history",
+    "amount_usd": 4000000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "Private Equity List",
+    "source_url": "https://privateequitylist.com/intelligence/md/new-funds-week-2026-11-16"
+  },
+  {
+    "id": "fractile",
+    "date": "2026-11-11",
+    "company": "Fractile",
+    "headline": "Fractile raises $720M Series C for AI inference chips",
+    "amount_usd": 720000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "AI infra"
+    ],
+    "region": "Europe",
+    "lead_investors": [
+      "Thrive Capital",
+      "Founders Fund",
+      "Lightspeed",
+      "Redpoint"
+    ],
+    "source_label": "TechCrunch",
+    "source_url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+  },
+  {
+    "id": "torus",
+    "date": "2026-11-11",
+    "company": "Torus",
+    "headline": "Torus raises $500M from Magnetar for modular energy and AI compute units",
+    "amount_usd": 500000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "AI infra",
+      "climate"
+    ],
+    "region": "",
+    "lead_investors": [
+      "Magnetar"
+    ],
+    "source_label": "The Next Web",
+    "source_url": "https://thenextweb.com/news/torus-foundry-500m-magnetar-modular-ai-inference"
+  },
+  {
+    "id": "path-robotics",
+    "date": "2026-11-11",
+    "company": "Path Robotics",
+    "headline": "Path Robotics raises $300M Series E at a $2.45B valuation for AI welding robots",
+    "amount_usd": 300000000,
     "currency_note": "",
     "stage": "Series C+",
     "sectors": [
@@ -200,103 +581,632 @@
     ],
     "region": "US",
     "lead_investors": [
-      "Fictional Lead Partners"
+      "Georgian"
     ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
+    "source_label": "Tech Funding News",
+    "source_url": "https://techfundingnews.com/path-robotics-arr-is-up-17x-in-18-months-why-georgian-is-backing-its-300m-series-e/"
   },
   {
-    "id": "sample-012",
-    "date": "2026-10-15",
-    "company": "Saffron Ledger",
-    "headline": "Saffron Ledger raises $3.1M Pre-seed for MSME credit scoring",
-    "amount_usd": 3100000,
+    "id": "mercor",
+    "date": "2026-11-10",
+    "company": "Mercor",
+    "headline": "Mercor raises $750M Series D at a $20B valuation, with an employee tender included",
+    "amount_usd": 750000000,
     "currency_note": "",
-    "stage": "Pre-seed",
+    "stage": "Series C+",
     "sectors": [
-      "fintech"
+      "AI apps"
     ],
-    "region": "India",
+    "region": "US",
     "lead_investors": [
-      "Fictional Lead Partners"
+      "Benchmark",
+      "Felicis",
+      "General Catalyst",
+      "NVIDIA"
     ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
+    "source_label": "Mercor",
+    "source_url": "https://www.mercor.com/blog/series-d/"
   },
   {
-    "id": "sample-013",
-    "date": "2026-10-08",
-    "company": "Polar Fern",
-    "headline": "Polar Fern closes $30M Series A for grid-scale heat storage",
-    "amount_usd": 30000000,
+    "id": "redalpine-8",
+    "date": "2026-11-10",
+    "company": "redalpine",
+    "headline": "redalpine closes $250M Fund VIII for early-stage deeptech",
+    "amount_usd": 250000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [
+      "deep tech"
+    ],
+    "region": "Europe",
+    "lead_investors": [],
+    "source_label": "HackerNoon",
+    "source_url": "https://hackernoon.com/redalpine-closes-oversubscribed-$250m-fund-to-back-the-science-defining-the-next-decade"
+  },
+  {
+    "id": "onodrim",
+    "date": "2026-11-09",
+    "company": "Onodrim Industries",
+    "headline": "Onodrim Industries raises $300M Series A at a $1.3B valuation to consolidate European defence suppliers",
+    "amount_usd": 300000000,
     "currency_note": "",
     "stage": "Series A",
+    "sectors": [
+      "defense and space"
+    ],
+    "region": "Europe",
+    "lead_investors": [
+      "Lux Capital"
+    ],
+    "source_label": "Tech.eu",
+    "source_url": "https://tech.eu/2026/11/09/onodrim-industries-hits-13b-valuation-with-300m-series-a-to-strengthen-european-defence/"
+  },
+  {
+    "id": "creandum-8",
+    "date": "2026-11-08",
+    "company": "Creandum",
+    "headline": "Creandum closes Fund VIII at $750M for pre-seed to Series A",
+    "amount_usd": 750000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [],
+    "region": "Europe",
+    "lead_investors": [],
+    "source_label": "Private Equity List",
+    "source_url": "https://privateequitylist.com/intelligence/md/new-funds-week-2026-11-09",
+    "date_note": "Week of Nov 2–8, 2026"
+  },
+  {
+    "id": "valor",
+    "date": "2026-11-08",
+    "company": "Valor Equity Partners",
+    "headline": "Valor Equity Partners reportedly raises about $3.3B for Series A to late stage",
+    "amount_usd": 3300000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [
+      "defense and space",
+      "AI infra"
+    ],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "Private Equity List",
+    "source_url": "https://privateequitylist.com/intelligence/md/new-funds-week-2026-11-09",
+    "date_note": "Week of Nov 2–8, 2026"
+  },
+  {
+    "id": "yosemite-2",
+    "date": "2026-11-08",
+    "company": "Yosemite",
+    "headline": "Yosemite closes its second fund at $350M for oncology",
+    "amount_usd": 350000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [
+      "health"
+    ],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "Private Equity List",
+    "source_url": "https://privateequitylist.com/intelligence/md/new-funds-week-2026-11-09",
+    "date_note": "Week of Nov 2–8, 2026"
+  },
+  {
+    "id": "flashpoint-4",
+    "date": "2026-11-08",
+    "company": "Flashpoint",
+    "headline": "Flashpoint closes Venture Growth Fund IV at $116M for vertical AI",
+    "amount_usd": 116000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [
+      "AI apps"
+    ],
+    "region": "Europe",
+    "lead_investors": [],
+    "source_label": "Private Equity List",
+    "source_url": "https://privateequitylist.com/intelligence/md/new-funds-week-2026-11-09",
+    "date_note": "Week of Nov 2–8, 2026"
+  },
+  {
+    "id": "norrsken-evolve",
+    "date": "2026-11-08",
+    "company": "Norrsken Evolve",
+    "headline": "Norrsken Evolve closes a €62M pre-seed fund for energy, robotics and AI",
+    "amount_usd": 68200000,
+    "currency_note": "",
+    "stage": "Fund close",
     "sectors": [
       "climate"
     ],
     "region": "Europe",
-    "lead_investors": [
-      "Fictional Lead Partners"
-    ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
+    "lead_investors": [],
+    "source_label": "Private Equity List",
+    "source_url": "https://privateequitylist.com/intelligence/md/new-funds-week-2026-11-09",
+    "date_note": "Week of Nov 2–8, 2026"
   },
   {
-    "id": "sample-014",
-    "date": "2026-09-24",
-    "company": "Orchard Row",
-    "headline": "Orchard Row raises $7M Seed for creator payout tooling",
-    "amount_usd": 7000000,
+    "id": "valuequest",
+    "date": "2026-11-08",
+    "company": "ValueQuest",
+    "headline": "ValueQuest Tristar Fund raises over $221M for Indian advanced manufacturing",
+    "amount_usd": 221000000,
     "currency_note": "",
-    "stage": "Seed",
+    "stage": "Fund close",
+    "sectors": [
+      "deep tech"
+    ],
+    "region": "India",
+    "lead_investors": [],
+    "source_label": "Private Equity List",
+    "source_url": "https://privateequitylist.com/intelligence/md/new-funds-week-2026-11-09",
+    "date_note": "Week of Nov 2–8, 2026"
+  },
+  {
+    "id": "harbinger",
+    "date": "2026-11-05",
+    "company": "Harbinger",
+    "headline": "Harbinger raises $240M Series D for commercial electric vehicles",
+    "amount_usd": 240000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "climate"
+    ],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "Fundz",
+    "source_url": "https://app.fundz.net/funding-rounds/2026-11-02"
+  },
+  {
+    "id": "ocient",
+    "date": "2026-11-05",
+    "company": "Ocient",
+    "headline": "Ocient raises $100M Series C for large-scale data analytics",
+    "amount_usd": 100000000,
+    "currency_note": "",
+    "stage": "Series C+",
     "sectors": [
       "SaaS"
     ],
     "region": "US",
-    "lead_investors": [
-      "Fictional Lead Partners"
-    ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
+    "lead_investors": [],
+    "source_label": "Fundz",
+    "source_url": "https://app.fundz.net/funding-rounds/2026-11-02"
   },
   {
-    "id": "sample-015",
-    "date": "2026-09-17",
-    "company": "Helix North Ventures",
-    "headline": "Helix North Ventures closes $95M Fund I for AI infrastructure",
-    "amount_usd": 95000000,
+    "id": "kalepa",
+    "date": "2026-11-05",
+    "company": "Kalepa",
+    "headline": "Kalepa raises $75M Series B for AI in commercial insurance underwriting",
+    "amount_usd": 75000000,
     "currency_note": "",
-    "stage": "Fund close",
+    "stage": "Series B",
+    "sectors": [
+      "fintech",
+      "AI apps"
+    ],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "Fundz",
+    "source_url": "https://app.fundz.net/funding-rounds/2026-11-02"
+  },
+  {
+    "id": "fal",
+    "date": "2026-11-04",
+    "company": "Fal",
+    "headline": "Fal raises $1.3B Series F for generative-media inference",
+    "amount_usd": 1300000000,
+    "currency_note": "",
+    "stage": "Series C+",
     "sectors": [
       "AI infra"
     ],
     "region": "US",
     "lead_investors": [],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
+    "source_label": "Fundz",
+    "source_url": "https://app.fundz.net/funding-rounds/2026-11-02"
   },
   {
-    "id": "sample-016",
-    "date": "2026-09-10",
-    "company": "Lotus Relay",
-    "headline": "Lotus Relay raises $13M Series A for cross-border B2B payments",
-    "amount_usd": 13000000,
+    "id": "laza",
+    "date": "2026-11-04",
+    "company": "Laza Medical",
+    "headline": "Laza Medical raises $160M Series B for medical devices",
+    "amount_usd": 160000000,
+    "currency_note": "",
+    "stage": "Series B",
+    "sectors": [
+      "health"
+    ],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "Fundz",
+    "source_url": "https://app.fundz.net/funding-rounds/2026-11-02"
+  },
+  {
+    "id": "hark",
+    "date": "2026-11-02",
+    "company": "Hark",
+    "headline": "Hark raises $700M Series A for AI-native hardware and assistant models",
+    "amount_usd": 700000000,
+    "currency_note": "",
+    "stage": "Series A",
+    "sectors": [
+      "AI apps"
+    ],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "Fundz",
+    "source_url": "https://app.fundz.net/funding-rounds/2026-11-02"
+  },
+  {
+    "id": "northwood",
+    "date": "2026-11-02",
+    "company": "Northwood Space",
+    "headline": "Northwood Space raises $375M Series C for satellite ground stations",
+    "amount_usd": 375000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "defense and space"
+    ],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "Fundz",
+    "source_url": "https://app.fundz.net/funding-rounds/2026-11-02"
+  },
+  {
+    "id": "tutor",
+    "date": "2026-11-02",
+    "company": "Tutor Intelligence",
+    "headline": "Tutor Intelligence raises $75M Series B for production-floor machine perception",
+    "amount_usd": 75000000,
+    "currency_note": "",
+    "stage": "Series B",
+    "sectors": [
+      "deep tech"
+    ],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "Fundz",
+    "source_url": "https://app.fundz.net/funding-rounds/2026-11-02"
+  },
+  {
+    "id": "deepseek",
+    "date": "2026-10-31",
+    "company": "DeepSeek",
+    "headline": "DeepSeek raises $15.9B at a $90B valuation, the largest round in China's history",
+    "amount_usd": 15900000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "AI infra"
+    ],
+    "region": "Other",
+    "lead_investors": [],
+    "source_label": "Value Add VC, citing Crunchbase News",
+    "source_url": "https://valueaddvc.com/pulse/global-vc-funding-59b-october-deepseek-2026",
+    "date_note": "Oct 2026"
+  },
+  {
+    "id": "kalshi",
+    "date": "2026-10-29",
+    "company": "Kalshi",
+    "headline": "Kalshi raises $1B, taking its valuation to a reported $40B",
+    "amount_usd": 1000000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "fintech"
+    ],
+    "region": "US",
+    "lead_investors": [
+      "Sequoia Capital",
+      "Wellington"
+    ],
+    "source_label": "Mean CEO",
+    "source_url": "https://blog.mean.ceo/startup-funding-announcements-news-november-2026/",
+    "date_note": "Oct 26–29, 2026"
+  },
+  {
+    "id": "upwind",
+    "date": "2026-10-29",
+    "company": "Upwind",
+    "headline": "Upwind raises $400M Series C for cloud security",
+    "amount_usd": 400000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "SaaS"
+    ],
+    "region": "US",
+    "lead_investors": [
+      "Bessemer Venture Partners"
+    ],
+    "source_label": "Mean CEO",
+    "source_url": "https://blog.mean.ceo/startup-funding-announcements-news-november-2026/",
+    "date_note": "Oct 26–29, 2026"
+  },
+  {
+    "id": "serval",
+    "date": "2026-10-29",
+    "company": "Serval",
+    "headline": "Serval raises $150M Series C for AI-run IT service management",
+    "amount_usd": 150000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "AI apps",
+      "SaaS"
+    ],
+    "region": "US",
+    "lead_investors": [
+      "Sequoia Capital"
+    ],
+    "source_label": "Mean CEO",
+    "source_url": "https://blog.mean.ceo/startup-funding-announcements-news-november-2026/",
+    "date_note": "Oct 26–29, 2026"
+  },
+  {
+    "id": "collective",
+    "date": "2026-10-29",
+    "company": "Collective",
+    "headline": "Collective raises $100M Series B for taxes and payroll for solo founders",
+    "amount_usd": 100000000,
+    "currency_note": "",
+    "stage": "Series B",
+    "sectors": [
+      "fintech"
+    ],
+    "region": "US",
+    "lead_investors": [
+      "General Catalyst"
+    ],
+    "source_label": "Mean CEO",
+    "source_url": "https://blog.mean.ceo/startup-funding-announcements-news-november-2026/",
+    "date_note": "Oct 26–29, 2026"
+  },
+  {
+    "id": "bedrock",
+    "date": "2026-10-26",
+    "company": "Bedrock Robotics",
+    "headline": "Bedrock Robotics raises $600M Series C at a $4.1B post-money valuation for construction robots",
+    "amount_usd": 600000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "deep tech"
+    ],
+    "region": "US",
+    "lead_investors": [
+      "CapitalG"
+    ],
+    "source_label": "Mean CEO",
+    "source_url": "https://blog.mean.ceo/startup-funding-announcements-news-november-2026/",
+    "date_note": "Oct 26–29, 2026"
+  },
+  {
+    "id": "xona",
+    "date": "2026-10-26",
+    "company": "Xona",
+    "headline": "Xona raises $250M Series D for commercial low-earth-orbit navigation",
+    "amount_usd": 250000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "defense and space"
+    ],
+    "region": "US",
+    "lead_investors": [
+      "Future Ventures"
+    ],
+    "source_label": "Mean CEO",
+    "source_url": "https://blog.mean.ceo/startup-funding-announcements-news-november-2026/",
+    "date_note": "Oct 26–29, 2026"
+  },
+  {
+    "id": "emergent",
+    "date": "2026-09-30",
+    "company": "Emergent",
+    "headline": "Emergent raises $130M and becomes a unicorn",
+    "amount_usd": 130000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "AI apps"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Creaegis",
+      "Khosla Ventures",
+      "SoftBank",
+      "Lightspeed",
+      "Y Combinator"
+    ],
+    "source_label": "Inc42",
+    "source_url": "https://inc42.com/buzz/startup-funding-crawls-up-5-yoy-to-2-2-bn-in-q3-2026-as-investors-get-picky/",
+    "date_note": "Q3 2026"
+  },
+  {
+    "id": "river",
+    "date": "2026-09-30",
+    "company": "River",
+    "headline": "River raises $120M for electric scooters",
+    "amount_usd": 120000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "climate",
+      "consumer"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Elev8 Venture Partners",
+      "Claypond Capital",
+      "Anicut Capital"
+    ],
+    "source_label": "Inc42",
+    "source_url": "https://inc42.com/buzz/startup-funding-crawls-up-5-yoy-to-2-2-bn-in-q3-2026-as-investors-get-picky/",
+    "date_note": "Q3 2026"
+  },
+  {
+    "id": "navi",
+    "date": "2026-09-30",
+    "company": "Navi",
+    "headline": "Navi raises $100M from Prosus, its first institutional round",
+    "amount_usd": 100000000,
+    "currency_note": "",
+    "stage": "Growth",
+    "sectors": [
+      "fintech"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Prosus"
+    ],
+    "source_label": "Inc42",
+    "source_url": "https://inc42.com/buzz/startup-funding-crawls-up-5-yoy-to-2-2-bn-in-q3-2026-as-investors-get-picky/",
+    "date_note": "Q3 2026"
+  },
+  {
+    "id": "pixxel",
+    "date": "2026-09-30",
+    "company": "Pixxel",
+    "headline": "Pixxel raises $100M for hyperspectral Earth observation",
+    "amount_usd": 100000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "defense and space"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Temasek",
+      "360 ONE Asset",
+      "Radical Ventures"
+    ],
+    "source_label": "Inc42",
+    "source_url": "https://inc42.com/buzz/startup-funding-crawls-up-5-yoy-to-2-2-bn-in-q3-2026-as-investors-get-picky/",
+    "date_note": "Q3 2026"
+  },
+  {
+    "id": "barq",
+    "date": "2026-09-30",
+    "company": "Barq",
+    "headline": "Barq raises $329.5M Series A at a $1.85B valuation",
+    "amount_usd": 329500000,
     "currency_note": "",
     "stage": "Series A",
     "sectors": [
       "fintech"
     ],
-    "region": "SE Asia",
-    "lead_investors": [
-      "Fictional Lead Partners"
+    "region": "Middle East",
+    "lead_investors": [],
+    "source_label": "Wamda",
+    "source_url": "https://www.wamda.com/en/2026/10/mena-startup-funding-jumps-165-billion-q3-saudi-arabia-taking-lead",
+    "date_note": "Q3 2026"
+  },
+  {
+    "id": "moove",
+    "date": "2026-09-30",
+    "company": "Moove",
+    "headline": "Moove raises $250M Series C for mobility financing",
+    "amount_usd": 250000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "fintech",
+      "consumer"
     ],
-    "source_label": "Fictional sample entry",
-    "source_url": "",
-    "sample": true
+    "region": "Middle East",
+    "lead_investors": [],
+    "source_label": "Wamda",
+    "source_url": "https://www.wamda.com/en/2026/10/mena-startup-funding-jumps-165-billion-q3-saudi-arabia-taking-lead",
+    "date_note": "Q3 2026"
+  },
+  {
+    "id": "tabby",
+    "date": "2026-09-30",
+    "company": "Tabby",
+    "headline": "Tabby raises $233M Series F at a $6.5B valuation",
+    "amount_usd": 233000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "fintech"
+    ],
+    "region": "Middle East",
+    "lead_investors": [],
+    "source_label": "Wamda",
+    "source_url": "https://www.wamda.com/en/2026/10/mena-startup-funding-jumps-165-billion-q3-saudi-arabia-taking-lead",
+    "date_note": "Q3 2026"
+  },
+  {
+    "id": "mistral",
+    "date": "2026-09-30",
+    "company": "Mistral AI",
+    "headline": "Mistral AI raises €3B Series D, the largest venture round ever for a European company",
+    "amount_usd": 3500000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "AI infra"
+    ],
+    "region": "Europe",
+    "lead_investors": [],
+    "source_label": "The Next Web",
+    "source_url": "https://thenextweb.com/news/europe-startup-funding-four-year-high-ai-startups-acquisitions",
+    "date_note": "Q3 2026"
+  },
+  {
+    "id": "nscale",
+    "date": "2026-09-30",
+    "company": "Nscale",
+    "headline": "Nscale raises a $3.36B convertible note for AI data centres",
+    "amount_usd": 3360000000,
+    "currency_note": "",
+    "stage": "Growth",
+    "sectors": [
+      "AI infra"
+    ],
+    "region": "Europe",
+    "lead_investors": [],
+    "source_label": "The Next Web",
+    "source_url": "https://thenextweb.com/news/europe-startup-funding-four-year-high-ai-startups-acquisitions",
+    "date_note": "Q3 2026"
+  },
+  {
+    "id": "helsing",
+    "date": "2026-09-30",
+    "company": "Helsing",
+    "headline": "Helsing raises $1.8B Series E for defence AI",
+    "amount_usd": 1800000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "defense and space"
+    ],
+    "region": "Europe",
+    "lead_investors": [],
+    "source_label": "The Next Web",
+    "source_url": "https://thenextweb.com/news/europe-startup-funding-four-year-high-ai-startups-acquisitions",
+    "date_note": "Q3 2026"
+  },
+  {
+    "id": "quantum-systems",
+    "date": "2026-09-30",
+    "company": "Quantum Systems",
+    "headline": "Quantum Systems raises $1.2B for drones",
+    "amount_usd": 1200000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "defense and space"
+    ],
+    "region": "Europe",
+    "lead_investors": [],
+    "source_label": "The Next Web",
+    "source_url": "https://thenextweb.com/news/europe-startup-funding-four-year-high-ai-startups-acquisitions",
+    "date_note": "Q3 2026"
   }
 ]
