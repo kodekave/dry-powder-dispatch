@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dry Powder Dispatch — Explainers</title>
+    <link>https://komalkedarnath.wiki/dry-powder-dispatch/explainers/</link>
+    <description>Follow the capital. Find the frontier. Explainers and frameworks on venture capital and startup money flow.</description>
+    <language>en</language>
+    <atom:link href="https://komalkedarnath.wiki/dry-powder-dispatch/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What 'dry powder' means and why it moves markets</title>
+      <link>https://komalkedarnath.wiki/dry-powder-dispatch/explainers/what-dry-powder-means/</link>
+      <guid>https://komalkedarnath.wiki/dry-powder-dispatch/explainers/what-dry-powder-means/</guid>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0530</pubDate>
+      <description>Draft explainer on how uncalled limited-partner capital shapes venture deployment pace, round sizing, and valuation discipline.</description>
+    </item>
+    <item>
+      <title>How to read a funding announcement in 60 seconds</title>
+      <link>https://komalkedarnath.wiki/dry-powder-dispatch/explainers/how-to-read-a-funding-announcement/</link>
+      <guid>https://komalkedarnath.wiki/dry-powder-dispatch/explainers/how-to-read-a-funding-announcement/</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0530</pubDate>
+      <description>Draft explainer on parsing round size, tranche structure, secondary liquidity, and lead investor signals in funding releases.</description>
+    </item>
+    <item>
+      <title>Where startup money is flowing: a sector map</title>
+      <link>https://komalkedarnath.wiki/dry-powder-dispatch/explainers/where-startup-money-is-flowing/</link>
+      <guid>https://komalkedarnath.wiki/dry-powder-dispatch/explainers/where-startup-money-is-flowing/</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0530</pubDate>
+      <description>Draft framework note for tracking AI infrastructure, AI apps, fintech, climate, defense and space, health, SaaS, consumer, and deep tech.</description>
+    </item>
+  </channel>
+</rss>

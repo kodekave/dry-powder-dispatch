@@ -1,0 +1,38 @@
+# Dry Powder Dispatch
+
+*Follow the capital. Find the frontier.* A static, editorial site on venture capital, startup financings and sector money flow. Part of [komalkedarnath.wiki](https://komalkedarnath.wiki). Plain HTML, CSS and vanilla JS, no build step.
+
+Live: https://komalkedarnath.wiki/dry-powder-dispatch/
+
+## Structure
+```
+index.html            home (hero, clocks, featured, latest deals, signups)
+deals/                archive with stage / sector / region filters and search
+explainers/           index + one folder per article (index.html each)
+about/                editor, coverage, standards, corrections
+css/tokens.css        palette + fonts copied from the main site (light + dark)
+css/base.css          layout, header, clocks, footer, controls
+css/pages.css         page-level styles
+js/site.js            theme sync, clocks, mobile nav, Substack handoff (config at top)
+js/deals.js           renders the deals feed from data/deals.json
+data/deals.json       the feed (all entries currently fictional samples)
+assets/               original SVG art; feed.xml, sitemap.xml, robots.txt at root
+```
+Dark mode follows the main site: `data-theme` on `<html>`, saved in `localStorage["theme"]`.
+
+## Add a deal
+Append an object to `data/deals.json` (newest first is fine; the page sorts by date):
+`{ "id", "date": "YYYY-MM-DD", "company", "headline", "amount_usd", "currency_note", "stage", "sectors": [], "region", "lead_investors": [], "source_label", "source_url", "sample": false }`
+Stages: Pre-seed, Seed, Series A, Series B, Series C+, Growth, Fund close. Regions: India, US, Europe, Middle East, SE Asia, Other. Use a real `source_url` and set `sample` to false (or remove it). The "Sample data" banner disappears when no entry has `sample: true`.
+
+## Add an explainer
+Copy a folder in `explainers/`, edit its `index.html`, then add it to `explainers/index.html`, `feed.xml` and `sitemap.xml`.
+
+## Preview locally
+`python3 -m http.server 8000` then open http://localhost:8000/
+
+## To do
+- Replace the sample deals with real, sourced ones.
+- Explainers are drafts with illustrative examples; review before relying on them.
+- `SUBSTACK_URL` in `js/site.js` points at the main-site newsletter; set a dedicated one if you create it. Set `SUBSCRIBER_COUNT` only to a real number.
+- Optional: add `assets/og-card.png` and an Open Graph image tag.

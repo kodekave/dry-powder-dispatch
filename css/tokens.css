@@ -1,0 +1,55 @@
+/*
+ * Dry Powder Dispatch design tokens
+ * Single source of truth derived from kodekave/kodekave.github.io (globals.css).
+ * All colors, surfaces, accents, and font stacks live here.
+ */
+
+:root {
+  --color-ink: #1f2b27;
+  --color-paper: #f6f5ef;
+  --color-mist: #eceadf;
+  --color-chalk: #e1dfd2;
+
+  --color-brass: #f7ef96;
+  --color-brass-deep: #55633a;
+  --color-on-brass: #1f2b27;
+  --color-field: #fff;
+
+  --color-panel: var(--color-ink);
+  --color-on-panel: var(--color-paper);
+
+  --color-ink-soft: color-mix(in srgb, var(--color-ink) 84%, var(--color-paper));
+  --color-ink-faint: color-mix(in srgb, var(--color-ink) 72%, var(--color-paper));
+  --color-hair: color-mix(in srgb, var(--color-ink) 14%, var(--color-paper));
+
+  --color-paper-soft: color-mix(in srgb, var(--color-on-panel) 80%, var(--color-panel));
+  --color-paper-faint: color-mix(in srgb, var(--color-on-panel) 62%, var(--color-panel));
+  --color-hair-inv: color-mix(in srgb, var(--color-on-panel) 20%, var(--color-panel));
+  --color-ink-deep: color-mix(in srgb, var(--color-panel) 74%, #000);
+
+  color-scheme: light;
+
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-read: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-read-italic: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-sans-stack: "DM Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono-stack: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --container-max: 68.75rem; /* ~1100px */
+  --reading-max: 42.5rem;   /* ~680px */
+  --radius-control: 6px;
+  --radius-panel: 12px;
+  --radius-pill: 999px;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-ink: #ebeae2;
+  --color-paper: #101614;
+  --color-mist: #171f1c;
+  --color-chalk: #212a26;
+  --color-brass-deep: #b4c486;
+  --color-field: #1b2420;
+  --color-panel: #1c2622;
+  --color-on-panel: #ebeae2;
+}

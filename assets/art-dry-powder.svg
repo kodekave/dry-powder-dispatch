@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Bars of committed and deployed capital with a rising line">
+  <g fill="none" stroke="#8a9a78" stroke-opacity=".35"><path d="M60 520H740M60 400H740M60 280H740M60 160H740"/></g>
+  <g>
+    <rect x="110" y="300" width="70" height="220" fill="#55633a" fill-opacity=".85"/><rect x="110" y="230" width="70" height="70" fill="#f7ef96"/>
+    <rect x="230" y="280" width="70" height="240" fill="#55633a" fill-opacity=".85"/><rect x="230" y="190" width="70" height="90" fill="#f7ef96"/>
+    <rect x="350" y="250" width="70" height="270" fill="#55633a" fill-opacity=".85"/><rect x="350" y="140" width="70" height="110" fill="#f7ef96"/>
+    <rect x="470" y="340" width="70" height="180" fill="#55633a" fill-opacity=".85"/><rect x="470" y="270" width="70" height="70" fill="#f7ef96"/>
+    <rect x="590" y="360" width="70" height="160" fill="#55633a" fill-opacity=".85"/><rect x="590" y="230" width="70" height="130" fill="#f7ef96"/>
+  </g>
+  <polyline points="145,200 265,160 385,110 505,230 625,90" fill="none" stroke="#7d8f6a" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="#7d8f6a"><circle cx="145" cy="200" r="7"/><circle cx="265" cy="160" r="7"/><circle cx="385" cy="110" r="7"/><circle cx="505" cy="230" r="7"/><circle cx="625" cy="90" r="7"/></g>
+</svg>

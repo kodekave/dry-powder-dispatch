@@ -1,0 +1,302 @@
+[
+  {
+    "id": "sample-001",
+    "date": "2026-11-18",
+    "company": "Northwind Freight",
+    "headline": "Northwind Freight raises $6M seed to digitise Indian trucking invoices",
+    "amount_usd": 6000000,
+    "currency_note": "",
+    "stage": "Seed",
+    "sectors": [
+      "fintech"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-002",
+    "date": "2026-11-16",
+    "company": "Kestrel Grid Systems",
+    "headline": "Kestrel Grid Systems closes $24M Series A for utility telemetry",
+    "amount_usd": 24000000,
+    "currency_note": "",
+    "stage": "Series A",
+    "sectors": [
+      "climate"
+    ],
+    "region": "US",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-003",
+    "date": "2026-11-14",
+    "company": "Banyan Compute",
+    "headline": "Banyan Compute raises $11M seed for inference routing software",
+    "amount_usd": 11000000,
+    "currency_note": "",
+    "stage": "Seed",
+    "sectors": [
+      "AI infra"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-004",
+    "date": "2026-11-11",
+    "company": "Linden Biologics",
+    "headline": "Linden Biologics signs $42M Series B for diagnostics workflow",
+    "amount_usd": 42000000,
+    "currency_note": "",
+    "stage": "Series B",
+    "sectors": [
+      "health"
+    ],
+    "region": "Europe",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-005",
+    "date": "2026-11-09",
+    "company": "Mariner Maritime Analytics",
+    "headline": "Mariner Maritime Analytics raises $8.5M Seed for port turnarounds",
+    "amount_usd": 8500000,
+    "currency_note": "",
+    "stage": "Seed",
+    "sectors": [
+      "deep tech"
+    ],
+    "region": "SE Asia",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-006",
+    "date": "2026-11-06",
+    "company": "Vespera Capital",
+    "headline": "Vespera Capital closes $180M Fund II for early-stage software",
+    "amount_usd": 180000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [
+      "SaaS"
+    ],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-007",
+    "date": "2026-11-04",
+    "company": "Aravalli Orbital",
+    "headline": "Aravalli Orbital raises $15M Series A for optical earth observation",
+    "amount_usd": 15000000,
+    "currency_note": "",
+    "stage": "Series A",
+    "sectors": [
+      "defense and space"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-008",
+    "date": "2026-11-02",
+    "company": "Cinder & Reed",
+    "headline": "Cinder & Reed raises $4.2M Pre-seed for compliance copilots",
+    "amount_usd": 4200000,
+    "currency_note": "",
+    "stage": "Pre-seed",
+    "sectors": [
+      "AI apps"
+    ],
+    "region": "Europe",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-009",
+    "date": "2026-10-29",
+    "company": "Qadir Logistics Tech",
+    "headline": "Qadir Logistics Tech raises $9M Seed for Gulf customs clearance",
+    "amount_usd": 9000000,
+    "currency_note": "",
+    "stage": "Seed",
+    "sectors": [
+      "fintech"
+    ],
+    "region": "Middle East",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-010",
+    "date": "2026-10-26",
+    "company": "Birch & Loom",
+    "headline": "Birch & Loom raises $19M Series A for home pantry subscription",
+    "amount_usd": 19000000,
+    "currency_note": "",
+    "stage": "Series A",
+    "sectors": [
+      "consumer"
+    ],
+    "region": "US",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-011",
+    "date": "2026-10-21",
+    "company": "Tessellate Robotics",
+    "headline": "Tessellate Robotics raises $55M Series C for warehouse picking arms",
+    "amount_usd": 55000000,
+    "currency_note": "",
+    "stage": "Series C+",
+    "sectors": [
+      "deep tech"
+    ],
+    "region": "US",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-012",
+    "date": "2026-10-15",
+    "company": "Saffron Ledger",
+    "headline": "Saffron Ledger raises $3.1M Pre-seed for MSME credit scoring",
+    "amount_usd": 3100000,
+    "currency_note": "",
+    "stage": "Pre-seed",
+    "sectors": [
+      "fintech"
+    ],
+    "region": "India",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-013",
+    "date": "2026-10-08",
+    "company": "Polar Fern",
+    "headline": "Polar Fern closes $30M Series A for grid-scale heat storage",
+    "amount_usd": 30000000,
+    "currency_note": "",
+    "stage": "Series A",
+    "sectors": [
+      "climate"
+    ],
+    "region": "Europe",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-014",
+    "date": "2026-09-24",
+    "company": "Orchard Row",
+    "headline": "Orchard Row raises $7M Seed for creator payout tooling",
+    "amount_usd": 7000000,
+    "currency_note": "",
+    "stage": "Seed",
+    "sectors": [
+      "SaaS"
+    ],
+    "region": "US",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-015",
+    "date": "2026-09-17",
+    "company": "Helix North Ventures",
+    "headline": "Helix North Ventures closes $95M Fund I for AI infrastructure",
+    "amount_usd": 95000000,
+    "currency_note": "",
+    "stage": "Fund close",
+    "sectors": [
+      "AI infra"
+    ],
+    "region": "US",
+    "lead_investors": [],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  },
+  {
+    "id": "sample-016",
+    "date": "2026-09-10",
+    "company": "Lotus Relay",
+    "headline": "Lotus Relay raises $13M Series A for cross-border B2B payments",
+    "amount_usd": 13000000,
+    "currency_note": "",
+    "stage": "Series A",
+    "sectors": [
+      "fintech"
+    ],
+    "region": "SE Asia",
+    "lead_investors": [
+      "Fictional Lead Partners"
+    ],
+    "source_label": "Fictional sample entry",
+    "source_url": "",
+    "sample": true
+  }
+]

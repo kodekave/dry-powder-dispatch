@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Nodes joined by arcs on a coordinate grid">
+  <g fill="none" stroke="#8a9a78" stroke-opacity=".3"><path d="M80 100H720M80 220H720M80 340H720M80 460H720M160 60V540M320 60V540M480 60V540M640 60V540"/></g>
+  <g fill="none" stroke="#55633a" stroke-width="3" stroke-opacity=".9">
+    <path d="M200 420 C300 150 480 150 560 250"/><path d="M200 420 C320 520 520 520 620 400"/><path d="M560 250 C620 180 680 220 620 400"/><path d="M320 160 C400 90 520 100 560 250"/>
+  </g>
+  <g fill="#7d8f6a"><circle cx="200" cy="420" r="14"/><circle cx="560" cy="250" r="20"/><circle cx="620" cy="400" r="12"/><circle cx="320" cy="160" r="10"/></g>
+  <circle cx="560" cy="250" r="34" fill="none" stroke="#f7ef96" stroke-width="6"/><circle cx="200" cy="420" r="9" fill="#f7ef96"/><circle cx="620" cy="400" r="6" fill="#f7ef96"/>
+</svg>
