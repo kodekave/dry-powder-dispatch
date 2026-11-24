@@ -43,4 +43,9 @@ Copy a folder in `explainers/`, edit its `index.html`, then add it to `explainer
 
 ## Brand
 
-The mark is a lighthouse inside a postmark ring ("Follow the capital. Find the frontier."). Source files live in `assets/brand/`: `logo-mark.svg` (header and footer mark, uses `currentColor`), `favicon.svg`, `favicon.ico`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`. The social-share image is `assets/og-card.png` (1200x630) and `site.webmanifest` lists the home-screen icons. When changing CSS or JS, bump the `?v=` token on the stylesheet and script links in each page so browsers drop cached copies.
+The mark is two curling wave crests over two ripples, drawn as a solid glyph that follows `currentColor` (so it flips in dark mode). It sits beside a bold sans wordmark, the way the reference site (veryfrontier.com) sets its mark. The brass node sits in the curl of the larger crest as the signature. Source files live in `assets/brand/`:
+- `logo-mark.svg`: the glyph on its own (viewBox 64x44, ink colour).
+- `favicon.svg`, `favicon.ico` (16, 32, 48), `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`: the glyph in paper on grainy olive wave bands (S-curve bands, grain fading toward the bottom). `site.webmanifest` lists the home-screen icons.
+- `assets/og-card.png` (1200x630): brand line, headline and italic pair in the reference's layout, with three stippled swells along the bottom and a brass node on a crest.
+
+The header and footer inline the glyph in every page (class `brand-mark`), so a logo change means replacing that `<svg>` in each HTML file. When changing CSS, JS or icons, bump the `?v=` token (now `20261125c`) on the links in each page so browsers drop cached copies. Palette: ink `#1f2b27`, paper `#f6f5ef`, olive `#55633a`, brass `#f7ef96`.
