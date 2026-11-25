@@ -341,3 +341,7 @@
 /* Section headers: let the title and its links wrap on narrow screens */
 .section-header { flex-wrap: wrap; row-gap: 0.5rem; }
 .section-header > span { white-space: nowrap; }
+
+/* About: question headings in the FAQ */
+.about-section h3 { margin-top: 1.75rem; margin-bottom: 0.4rem; font-size: 1.125rem; }
+.about-section h3 + p { margin-top: 0; }

@@ -1,0 +1,30 @@
+# Dry Powder Dispatch
+
+> A free publication on startup funding rounds, fund closes and sector money flow across India, the US, Europe and beyond, with plain-English explainers on venture capital. Edited by Komal Kedarnath G in Bengaluru. Every figure links to its public source and is recorded as reported.
+
+Also published as a newsletter on Substack (https://komalkedarnath.substack.com) and LinkedIn. The articles below are mirrored from Substack.
+
+## Start here
+
+- [Home](https://dispatch.komalkedarnath.wiki/): the latest deals and explainers
+- [Deals](https://dispatch.komalkedarnath.wiki/deals/): every logged funding round and fund close, with source links, filterable by stage, sector and region
+- [Deals data (JSON)](https://dispatch.komalkedarnath.wiki/data/deals.json): the full dataset: date, company, headline, amount in USD, stage, sectors, region, lead investors, source URL
+- [Briefing](https://dispatch.komalkedarnath.wiki/briefing/): the week in capital
+- [About and FAQ](https://dispatch.komalkedarnath.wiki/about/): who edits it, where the figures come from, corrections
+
+## Explainers
+
+- [Anthropic priced above its range. Most big 2026 listings still trade below issue.](https://dispatch.komalkedarnath.wiki/explainers/anthropic-ipo-what-it-signals/): The deal raised $81.34 billion on 18 November. Of the 53 US IPOs of $1 billion or more this year, 37 sat under their issue price at the 19 November close.
+- [The Fed hiked in September and held in October, with two votes to hike again.](https://dispatch.komalkedarnath.wiki/explainers/fed-hike-and-your-next-round/): The target range sits at 3.75% to 4%. The next meeting runs 8 and 9 December.
+- [October venture hit $59 billion. Seven billion-dollar rounds took over 40% of it.](https://dispatch.komalkedarnath.wiki/explainers/global-venture-october-q3-2026/): Q3 had a record 27 rounds of $1 billion or more. The dollar totals keep rising and the list of companies behind them keeps shrinking.
+- [Funds closed this month: Norwest raised $4 billion and a lot of small funds closed beside it](https://dispatch.komalkedarnath.wiki/explainers/funds-closed-november-2026/): Two weeks of fund announcements show a barbell: a few very large vehicles and many solo and specialist funds under $100 million.
+- [Europe had its best quarter in four years. Four rounds made up close to 40% of it.](https://dispatch.komalkedarnath.wiki/explainers/europe-best-quarter-in-four-years/): Crunchbase counts $25 billion for Q3. Tech.eu counts &#8364;27.8 billion. November added a $5 billion drug-discovery round and a run of defence deals.
+- [India: more money, fewer deals, fewer investors](https://dispatch.komalkedarnath.wiki/explainers/india-more-money-fewer-deals/): Indian tech startups raised $2.2 billion in Q3, up 5%. Deal count fell 13% and active investors fell 24%.
+- [MENA startups raised $1.65 billion in Q3. Saudi Arabia led, and fewer companies took the money.](https://dispatch.komalkedarnath.wiki/explainers/gulf-and-mena-bigger-cheques/): Funding doubled on Q2 and fell 63% on Q3 2025. Nine-month deal count is down a third.
+- [Exits without an IPO: tenders, secondaries and the funds that sell](https://dispatch.komalkedarnath.wiki/explainers/exits-without-an-ipo/): Record secondary volume and busy tender calendars carry most of the liquidity load while the IPO window serves a handful of names.
+- [How money crosses borders in 2026: UPI links, stablecoin rules and the cost of a remittance](https://dispatch.komalkedarnath.wiki/explainers/how-money-crosses-borders-2026/): The US finalised its stablecoin rule on 21 October. UPI now runs in nine countries. Both are growing faster than the rules that connect them.
+
+## Optional
+
+- [RSS feed](https://dispatch.komalkedarnath.wiki/feed.xml)
+- [Sitemap](https://dispatch.komalkedarnath.wiki/sitemap.xml)
