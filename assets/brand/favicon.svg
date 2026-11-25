@@ -7,4 +7,4 @@
 <path d="M0 44C28 18 56 66 96 28V56C62 92 30 46 0 72Z" fill="#1b6b45"/><path d="M0 44C28 18 56 66 96 28V0H0Z" fill="#58b583"/>
 <g mask="url(#fvm)"><rect width="96" height="96" filter="url(#fvg)"/></g>
 <g mask="url(#fvn)"><rect width="96" height="96" filter="url(#fvk)" opacity=".8"/></g></g>
-<g transform="translate(14 26) scale(1.04)" fill="none" stroke="#e9ff3e" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 38C12 38 19 31 22 21C25 11 33 5 41 7C49 9 50 20 42 21C36 22 34 15 39 13"/><path d="M30 38C38 38 43 34 46 28C49 21 56 19 60 22C63 24.5 60 30 56 28"/></g></svg>
+<g fill="none" stroke="#e9ff3e" stroke-linecap="round" stroke-linejoin="round"><circle cx="48" cy="48" r="39" stroke-width="3"/><g transform="translate(15.5 27) scale(1.03)" stroke-width="4.6"><path d="M3.0 35.7C8.1 37.0 13.6 34.4 17.1 26.7C20.5 19.0 22.6 12.1 27.4 9.1C31.5 7.0 37.0 7.9 41.1 12.1"/><path d="M41.1 12.1C38.3 10.9 35.6 11.7 33.5 14.7C31.8 17.3 32.2 22.0 34.9 24.6C38.3 27.6 44.5 28.4 49.3 25.9C54.1 23.3 58.2 19.0 60.3 14.3"/></g></g></svg>

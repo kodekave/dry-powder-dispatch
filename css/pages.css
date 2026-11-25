@@ -21,7 +21,7 @@
 @media (max-width: 480px) {
   .site-header-inner { gap: 0.4rem; }
   .site-brand { font-size: 0.9rem; gap: 0.4rem; }
-  .brand-mark { width: 30px; height: 20.6px; }
+  .brand-mark { width: 32px; height: 32px; }
   .btn-subscribe { margin-inline: 0; padding-inline: 0.7rem; }
   .theme-toggle, .menu-btn { width: 2.25rem; height: 2.25rem; }
 }
@@ -40,6 +40,9 @@
   font-family: var(--font-display); font-weight: 300; letter-spacing: -0.03em; line-height: 1.04;
   font-size: clamp(2.4rem, 6.6vw, 4.5rem); margin: 0 auto;
 }
+.hero-stamp { display: block; margin: 0 auto 1.25rem; color: var(--color-ink); transform: rotate(-7deg); }
+.hero-stamp .stamp-t { font: 500 15.5px var(--font-mono-stack); letter-spacing: .2em; }
+.hero-stamp .stamp-tt { font: 500 11px var(--font-mono-stack); letter-spacing: .22em; }
 .hero-radar .hero-sub { margin: 1.5rem auto 0; max-width: 36rem; font-size: 0.9375rem; }
 
 /* World map with a radar: small, light, and quiet. Dotted land, faint rings, one thin sweep. */
