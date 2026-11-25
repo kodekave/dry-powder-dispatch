@@ -149,10 +149,13 @@
           <p class="label label-dot">Dispatch notes</p>
           <h2 id="article-signup-heading" class="section-title font-display" style="margin-top:0.5rem;">Read the next dispatch.</h2>
           <p class="mono-meta" data-subscriber-count hidden></p>
-          <div class="substack-embed">
-            <iframe src="https://komalkedarnath.substack.com/embed" title="Subscribe to Dry Powder Dispatch" width="480" height="320" loading="lazy"></iframe>
-          </div>
-          <p class="signup-status">Free. Unsubscribe anytime.</p>
+          <form class="signup-form" data-signup-form>
+            <label for="email-1" class="sr-only">Email address</label>
+            <span class="signup-prompt" aria-hidden="true">&gt;</span>
+            <input id="email-1" class="input-field" type="email" name="email" autocomplete="email" required placeholder="your@email.com" />
+            <button type="submit" class="signup-submit" aria-label="Subscribe"><span aria-hidden="true">&rarr;</span></button>
+          </form>
+          <p class="signup-status" data-signup-status aria-live="polite">Free. Unsubscribe anytime.</p>
         </div>
       </div>
     </section>
