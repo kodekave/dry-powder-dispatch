@@ -3,7 +3,7 @@
  * - Theme state synced with <html data-theme="light|dark"> and localStorage["theme"]
  * - Mobile navigation toggle
  * - Live world clocks (BLR, SF, LDN, NY) updating every second
- * - Signup links point to Substack (plain links in the HTML; this only fills the count line)
+ * - Signup is Substack's embedded form (an iframe in the HTML; this only fills the count line)
  */
 
 (function () {
