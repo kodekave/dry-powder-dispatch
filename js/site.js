@@ -3,14 +3,16 @@
  * - Theme state synced with <html data-theme="light|dark"> and localStorage["theme"]
  * - Mobile navigation toggle
  * - Live world clocks (BLR, SF, LDN, NY) updating every second
- * - Kit (ConvertKit) signup: posts the email to the Kit form, no page redirect
+ * - Signup: hands the email to the Substack subscribe page (prefilled), so the form here follows the site theme
  */
 
 (function () {
   "use strict";
 
-  // Kit form that collects subscribers (from https://dry-powder-dispatch.kit.com/13ad0a475a).
-  const KIT_FORM_URL = "https://app.kit.com/forms/10237748/subscriptions";
+  // Substack publication that collects subscribers. Substack rejects cross-origin form posts and its
+  // embed iframe cannot follow this site's theme, so the form here is our own and hands off to the
+  // subscribe page with the address prefilled.
+  const SUBSTACK_URL = "https://komalkedarnath.substack.com";
 
   // Optional subscriber count: keep null so no count line is shown until set to a real number.
   const SUBSCRIBER_COUNT = null;
@@ -140,22 +142,8 @@
         e.preventDefault();
         const email = input ? input.value.trim() : "";
         if (!email) return;
-        const button = form.querySelector('button[type="submit"]');
-        if (button) button.disabled = true;
-        if (status) status.textContent = "Subscribing…";
-        const body = new URLSearchParams({ email_address: email });
-        // Kit's form endpoint does not send CORS headers, so the reply is opaque; a resolved request means it was delivered.
-        fetch(KIT_FORM_URL, { method: "POST", mode: "no-cors", body })
-          .then(() => {
-            if (status) status.textContent = "Almost done. Check your inbox and confirm your email.";
-            form.reset();
-          })
-          .catch(() => {
-            if (status) status.textContent = "Could not subscribe just now. Please try again in a moment.";
-          })
-          .finally(() => {
-            if (button) button.disabled = false;
-          });
+        if (status) status.textContent = "Taking you to Substack to confirm…";
+        window.location.href = SUBSTACK_URL + "/subscribe?email=" + encodeURIComponent(email);
       });
     });
   }
@@ -194,8 +182,8 @@
   });
 
   window.DryPowderDispatch = Object.freeze({
-    get KIT_FORM_URL() {
-      return KIT_FORM_URL;
+    get SUBSTACK_URL() {
+      return SUBSTACK_URL;
     },
     get SUBSCRIBER_COUNT() {
       return SUBSCRIBER_COUNT;

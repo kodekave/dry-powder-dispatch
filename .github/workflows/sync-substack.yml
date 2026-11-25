@@ -1,0 +1,41 @@
+name: Sync from Substack
+
+# The Substack is the source of truth for articles. This pulls its public feed into the site.
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # every 3 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: sync-substack
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Mirror Substack posts
+        run: node scripts/sync-substack.mjs
+      - name: Commit and publish if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "dispatch-sync"
+          git config user.email "dispatch-sync@users.noreply.github.com"
+          git add -A
+          git commit -m "Sync articles from Substack"
+          git push
+          # pushes made with the workflow token do not start other workflows, so ask Pages for a build
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
