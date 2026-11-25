@@ -3,11 +3,16 @@
  * - Theme state synced with <html data-theme="light|dark"> and localStorage["theme"]
  * - Mobile navigation toggle
  * - Live world clocks (BLR, SF, LDN, NY) updating every second
- * - Signup is Substack's embedded form (an iframe in the HTML; this only fills the count line)
+ * - Signup: hands the email to the Substack subscribe page (prefilled), so the form here follows the site theme
  */
 
 (function () {
   "use strict";
+
+  // Substack publication that collects subscribers. Substack rejects cross-origin form posts and its
+  // embed iframe cannot follow this site's theme, so the form here is our own and hands off to the
+  // subscribe page with the address prefilled.
+  const SUBSTACK_URL = "https://komalkedarnath.substack.com";
 
   // Optional subscriber count: keep null so no count line is shown until set to a real number.
   const SUBSCRIBER_COUNT = null;
@@ -128,6 +133,19 @@
         el.hidden = false;
       }
     });
+
+    document.querySelectorAll("[data-signup-form]").forEach((form) => {
+      const input = form.querySelector('input[type="email"]');
+      const status = form.parentElement ? form.parentElement.querySelector("[data-signup-status]") : null;
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const email = input ? input.value.trim() : "";
+        if (!email) return;
+        if (status) status.textContent = "Taking you to Substack to confirm…";
+        window.location.href = SUBSTACK_URL + "/subscribe?email=" + encodeURIComponent(email);
+      });
+    });
   }
 
   function initReveal() {
@@ -164,6 +182,9 @@
   });
 
   window.DryPowderDispatch = Object.freeze({
+    get SUBSTACK_URL() {
+      return SUBSTACK_URL;
+    },
     get SUBSCRIBER_COUNT() {
       return SUBSCRIBER_COUNT;
     },
