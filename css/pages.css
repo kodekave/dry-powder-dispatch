@@ -140,6 +140,13 @@
 .signup-band .signup-box { margin-inline: auto; }
 .signup-band .signup-form { margin-top: 1.5rem; max-width: 18.75rem; margin-inline: auto; }
 #subscribe { scroll-margin-top: 6rem; }
+.signup-link {
+  display: flex; padding: 0.7rem 0; font-family: var(--font-mono-stack); font-size: 0.9375rem;
+  color: var(--color-brass-deep); text-decoration: none;
+}
+.signup-link .signup-arrow { margin-left: auto; font-size: 1.125rem; line-height: 1; transition: transform 0.15s ease; }
+.signup-link:hover .signup-arrow { transform: translateX(3px); }
+.signup-link:focus-visible { outline: 2px solid var(--color-ink); outline-offset: 2px; }
 
 /* ---------- Sections ---------- */
 .section-block { padding-block: 3rem; }

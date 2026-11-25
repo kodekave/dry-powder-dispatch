@@ -14,7 +14,7 @@ about/                editor, coverage, standards, corrections
 css/tokens.css        palette + fonts copied from the main site (light + dark)
 css/base.css          layout, header, clocks, footer, controls
 css/pages.css         page-level styles
-js/site.js            theme sync, clocks, mobile nav, Kit signup (config at top)
+js/site.js            theme sync, clocks, mobile nav, subscriber count line
 js/deals.js           renders the deals feed from data/deals.json
 data/deals.json       the feed: 66 real, sourced entries (25 Nov 2026); every entry has a source_url
 assets/               original SVG art; feed.xml, sitemap.xml, robots.txt at root
@@ -38,7 +38,7 @@ Copy a folder in `explainers/`, edit its `index.html`, then add it to `explainer
 - Carta, Fed-expectation and IDB pages blocked automated fetches. The Carta figures (13% down rounds, $49.3B across 1,179 rounds, 71 tender offers) come from public listings, not the full reports. Check them.
 - The three older explainers are still drafts with fictional examples.
 - Briefing and article pages are marked "Draft for editor review". Remove the label when reviewed.
-- `KIT_FORM_URL` in `js/site.js` is the Kit form that collects signups. Set `SUBSCRIBER_COUNT` only to a real number.
+- Signups go to Substack: every signup line links to https://komalkedarnath.substack.com/subscribe. In `js/site.js`, set `SUBSCRIBER_COUNT` only to a real number.
 - Optional: add `assets/og-card.png` and an Open Graph image tag.
 
 ## Brand

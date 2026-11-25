@@ -3,14 +3,11 @@
  * - Theme state synced with <html data-theme="light|dark"> and localStorage["theme"]
  * - Mobile navigation toggle
  * - Live world clocks (BLR, SF, LDN, NY) updating every second
- * - Kit (ConvertKit) signup: posts the email to the Kit form, no page redirect
+ * - Signup links point to Substack (plain links in the HTML; this only fills the count line)
  */
 
 (function () {
   "use strict";
-
-  // Kit form that collects subscribers (from https://dry-powder-dispatch.kit.com/13ad0a475a).
-  const KIT_FORM_URL = "https://app.kit.com/forms/10237748/subscriptions";
 
   // Optional subscriber count: keep null so no count line is shown until set to a real number.
   const SUBSCRIBER_COUNT = null;
@@ -131,33 +128,6 @@
         el.hidden = false;
       }
     });
-
-    document.querySelectorAll("[data-signup-form]").forEach((form) => {
-      const input = form.querySelector('input[type="email"]');
-      const status = form.parentElement ? form.parentElement.querySelector("[data-signup-status]") : null;
-
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const email = input ? input.value.trim() : "";
-        if (!email) return;
-        const button = form.querySelector('button[type="submit"]');
-        if (button) button.disabled = true;
-        if (status) status.textContent = "Subscribing…";
-        const body = new URLSearchParams({ email_address: email });
-        // Kit's form endpoint does not send CORS headers, so the reply is opaque; a resolved request means it was delivered.
-        fetch(KIT_FORM_URL, { method: "POST", mode: "no-cors", body })
-          .then(() => {
-            if (status) status.textContent = "Almost done. Check your inbox and confirm your email.";
-            form.reset();
-          })
-          .catch(() => {
-            if (status) status.textContent = "Could not subscribe just now. Please try again in a moment.";
-          })
-          .finally(() => {
-            if (button) button.disabled = false;
-          });
-      });
-    });
   }
 
   function initReveal() {
@@ -194,9 +164,6 @@
   });
 
   window.DryPowderDispatch = Object.freeze({
-    get KIT_FORM_URL() {
-      return KIT_FORM_URL;
-    },
     get SUBSCRIBER_COUNT() {
       return SUBSCRIBER_COUNT;
     },
