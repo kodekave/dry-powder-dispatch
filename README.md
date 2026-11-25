@@ -38,7 +38,7 @@ Copy a folder in `explainers/`, edit its `index.html`, then add it to `explainer
 - Carta, Fed-expectation and IDB pages blocked automated fetches. The Carta figures (13% down rounds, $49.3B across 1,179 rounds, 71 tender offers) come from public listings, not the full reports. Check them.
 - The three older explainers are still drafts with fictional examples.
 - Briefing and article pages are marked "Draft for editor review". Remove the label when reviewed.
-- Signups go to Substack: every signup line links to https://komalkedarnath.substack.com/subscribe. In `js/site.js`, set `SUBSCRIBER_COUNT` only to a real number.
+- Signups go to Substack: every signup spot embeds Substack's inline form (https://komalkedarnath.substack.com/embed). In `js/site.js`, set `SUBSCRIBER_COUNT` only to a real number.
 - Optional: add `assets/og-card.png` and an Open Graph image tag.
 
 ## Brand
