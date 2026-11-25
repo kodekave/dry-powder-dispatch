@@ -31,7 +31,7 @@
   function syncThemeMeta(theme) {
     const meta = document.querySelector('meta[name="theme-color"]');
     if (meta) {
-      meta.setAttribute("content", theme === "dark" ? "#101614" : "#f6f5ef");
+      meta.setAttribute("content", theme === "dark" ? "#08140d" : "#ffffff");
     }
   }
 
