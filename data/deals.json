@@ -18,7 +18,9 @@
     ],
     "source_label": "StartupHub",
     "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
-    "date_note": "Nov 16–22, 2026"
+    "date_note": "Nov 16–22, 2026",
+    "image": "https://pharmaphorum.com/sites/default/files/2026-11/Demis_Hassabos_Iso_1200x675.jpg",
+    "image_credit": "Pharmaphorum"
   },
   {
     "id": "bending-spoons",
@@ -35,7 +37,9 @@
     "lead_investors": [],
     "source_label": "StartupHub",
     "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
-    "date_note": "Nov 16–22, 2026"
+    "date_note": "Nov 16–22, 2026",
+    "image": "https://media.thenextweb.com/2026/06/bending-spoons-ipo-pricing-19-billion-valuation-nasdaq.jpg",
+    "image_credit": "The Next Web"
   },
   {
     "id": "shield-ai",
@@ -54,7 +58,9 @@
     ],
     "source_label": "StartupHub",
     "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
-    "date_note": "Nov 16–22, 2026"
+    "date_note": "Nov 16–22, 2026",
+    "image": "https://siliconvalleyinvestclub.com/api/img/wp/2025/03/shieldaibrandontseng-6.jpg?w=1200",
+    "image_credit": "Silicon Valley Investclub"
   },
   {
     "id": "genesis-ai",
@@ -76,7 +82,9 @@
     ],
     "source_label": "StartupHub",
     "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
-    "date_note": "Nov 16–22, 2026"
+    "date_note": "Nov 16–22, 2026",
+    "image": "https://www.robotics247.com/images/2026_article/GenesisAI-funding-PhysicalAI-humanoid-main-Robotics247-2026.jpg",
+    "image_credit": "Robotics 24/7"
   },
   {
     "id": "science-corp",
@@ -93,7 +101,9 @@
     "lead_investors": [],
     "source_label": "StartupHub",
     "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
-    "date_note": "Nov 16–22, 2026"
+    "date_note": "Nov 16–22, 2026",
+    "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/Screenshot-from-2026-11-18-08-55-07.png",
+    "image_credit": "SiliconANGLE"
   },
   {
     "id": "payhawk",
@@ -112,7 +122,9 @@
     ],
     "source_label": "StartupHub",
     "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
-    "date_note": "Nov 16–22, 2026"
+    "date_note": "Nov 16–22, 2026",
+    "image": "https://storage.googleapis.com/payhawk-website/images/000/020/488/image/Payhawk%20Series%20C_cover.png",
+    "image_credit": "Payhawk"
   },
   {
     "id": "model-ml",
@@ -152,7 +164,9 @@
     ],
     "source_label": "StartupHub",
     "source_url": "https://www.startuphub.ai/ai-news/funding-roundup/2026/this-week-in-startup-funding",
-    "date_note": "Nov 16–22, 2026"
+    "date_note": "Nov 16–22, 2026",
+    "image": "https://starkfuture.com/img/1920x1080/667e1be9-274e-4b20-9a5f-96c4c62f269e.jpg",
+    "image_credit": "Stark Future"
   },
   {
     "id": "dreamteam",
