@@ -24,6 +24,8 @@ jobs:
           node-version: 20
       - name: Mirror Substack posts
         run: node scripts/sync-substack.mjs
+      - name: Pre-render deals for crawlers
+        run: node scripts/prerender-deals.mjs
       - name: Commit and publish if anything changed
         env:
           GH_TOKEN: ${{ github.token }}

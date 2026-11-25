@@ -18,7 +18,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const SITE = "https://komalkedarnath.wiki/dry-powder-dispatch";
+const SITE = "https://dispatch.komalkedarnath.wiki";
 const DEFAULT_FEED = "https://komalkedarnath.substack.com/feed";
 const argFeed = process.argv.includes("--feed") ? process.argv[process.argv.indexOf("--feed") + 1] : DEFAULT_FEED;
 
@@ -81,6 +81,8 @@ function cleanBody(raw) {
     (_, src, cap) => `<figure><img src="${src}" alt="" loading="lazy" />${cap ? `<figcaption>${cap.replace(/<[^>]+>/g, "")}</figcaption>` : ""}</figure>`);
   h = h.replace(/<(?!img\b|a\b)([a-z0-9]+)\s[^>]*>/gi, "<$1>");        // drop attributes (classes, styles, data-*)
   h = h.replace(/<a\s+[^>]*?href="([^"]+)"[^>]*>/gi, (_, href) => `<a href="${href}" target="_blank" rel="noopener noreferrer">`);
+  h = h.replace(/https:\/\/komalkedarnath\.wiki\/dry-powder-dispatch/g, SITE);
+  h = h.replace(/<a href="(https:\/\/dispatch\.komalkedarnath\.wiki[^"]*)" target="_blank" rel="noopener noreferrer">/g, '<a href="$1">');
   h = h.replace(/<\/?(?:div|span|picture|source|button|svg|path)\b[^>]*>/gi, "");
   h = h.replace(/<p>\s*<\/p>/g, "").replace(/\n{2,}/g, "\n").trim();
   return h;
@@ -97,8 +99,31 @@ const readMins = (html) => Math.max(1, Math.round(html.replace(/<[^>]+>/g, " ").
 const isoDay = (d) => d.toISOString().slice(0, 10);
 
 /* ---------- page generation ---------- */
-function articleHtml(frame, e, body) {
-  const ld = JSON.stringify({ "@context": "https://schema.org", "@type": "NewsArticle", headline: e.title, description: e.dek, datePublished: e.date, mainEntityOfPage: e.url, author: { "@type": "Person", name: "Komal Kedarnath G" } }, null, 2);
+function articleHtml(frame, e, body, meta) {
+  const canonical = `${SITE}/explainers/${e.slug}/`;
+  const org = { "@type": "Organization", "@id": `${SITE}/#org`, name: "Dry Powder Dispatch", url: `${SITE}/`, logo: { "@type": "ImageObject", url: `${SITE}/assets/brand/icon-512.png` } };
+  const ld = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "NewsArticle", "@id": `${canonical}#article`, headline: e.title, description: e.dek,
+        datePublished: e.date, dateModified: e.date, inLanguage: "en-GB", isAccessibleForFree: true,
+        image: [`${SITE}/assets/og-card.png`],
+        author: { "@type": "Person", name: "Komal Kedarnath G", url: `${SITE}/about/` },
+        publisher: org, mainEntityOfPage: canonical, sameAs: e.url,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Dry Powder Dispatch", item: `${SITE}/` },
+          { "@type": "ListItem", position: 2, name: "Explainers", item: `${SITE}/explainers/` },
+          { "@type": "ListItem", position: 3, name: e.seoTitle || e.title, item: canonical },
+        ],
+      },
+    ],
+  }, null, 2);
+  const related = meta.filter((m) => m.substack && m.slug !== e.slug).slice(0, 3)
+    .map((m) => `            <li><a class="link-underline" href="../${m.slug}/">${esc(m.title)}</a></li>`).join("\n");
   const article = `<article>
       <header class="article-header">
         <div class="wrap-reading">
@@ -106,7 +131,7 @@ function articleHtml(frame, e, body) {
           <h1 class="wordmark article-title">${esc(e.title)}</h1>
           <p class="article-dek">${esc(e.dek)}</p>
           <div class="article-byline">
-            <span>Dry Powder Dispatch</span>
+            <span>By <a class="link-underline" href="../../about/">Komal Kedarnath G</a></span>
             <time datetime="${e.date}">${e.date}</time>
             <span>${e.read} min read</span>
             <a class="link-underline" href="${e.url}" target="_blank" rel="noopener noreferrer">Read on Substack</a>
@@ -119,10 +144,22 @@ function articleHtml(frame, e, body) {
 ${body}
         </div>
       </div>
-    </article>`;
+${related ? `
+      <section class="article-related" aria-labelledby="related-heading">
+        <div class="wrap-reading">
+          <h2 id="related-heading" class="label" style="color:var(--color-brass-deep);">More from the Dispatch</h2>
+          <ul>
+${related}
+          </ul>
+        </div>
+      </section>
+` : ""}    </article>`;
+  const seo = e.seoTitle || e.title;
+  const articleMeta = `<meta property="article:published_time" content="${e.date}" />\n  <meta property="article:author" content="Komal Kedarnath G" />\n  <meta property="article:section" content="${escAttr(e.kicker.split(" ·")[0])}" />`;
   return frame
-    .replace("{{TITLE_HTML}}", () => esc(e.title)).replace(/\{\{TITLE_ATTR\}\}/g, () => escAttr(e.title))
-    .replace(/\{\{DEK_ATTR\}\}/g, () => escAttr(e.dek)).replace("{{CANONICAL}}", () => e.url)
+    .replace("{{TITLE_TAG}}", () => `${esc(seo)} — Dispatch`).replace(/\{\{TITLE_ATTR\}\}/g, () => escAttr(seo))
+    .replace(/\{\{DEK_ATTR\}\}/g, () => escAttr(e.dek)).replace(/\{\{CANONICAL\}\}/g, () => canonical)
+    .replace("{{ARTICLE_META}}", () => articleMeta)
     .replace("{{JSONLD}}", () => `\n    ${ld.replace(/\n/g, "\n    ")}\n  `)
     .replace("<!--ARTICLE-->", () => article);
 }
@@ -173,7 +210,7 @@ for (const p of posts) {
   // keep the reading time already shown for an article; only compute it for a new one
   Object.assign(e, { substack: p.substackSlug, url: p.link, title: p.title, dek: p.dek || e.dek, read: e.read && !e.isNew ? e.read : readMins(body) });
   delete e.isNew;
-  await write(`explainers/${e.slug}/index.html`, articleHtml(frame, e, body));
+  await write(`explainers/${e.slug}/index.html`, articleHtml(frame, e, body, meta));
   changed++;
 }
 
@@ -205,8 +242,14 @@ await write("feed.xml", feed);
 // sitemap.xml
 let sm = await read("sitemap.xml");
 sm = sm.replace(/\s*<url>\s*<loc>[^<]*\/explainers\/[^/<]+\/<\/loc>[\s\S]*?<\/url>/g, "");
-const urls = meta.map((e) => `  <url>\n    <loc>${SITE}/explainers/${e.slug}/</loc>\n    <lastmod>${e.date}</lastmod>\n  </url>`).join("\n");
+const urls = meta.filter((e) => e.substack).map((e) => `  <url>\n    <loc>${SITE}/explainers/${e.slug}/</loc>\n    <lastmod>${e.date}</lastmod>\n  </url>`).join("\n");
 sm = sm.replace("</urlset>", () => `${urls}\n</urlset>`);
 await write("sitemap.xml", sm);
+
+// llms.txt: keep the article list in step
+let llms = await read("llms.txt");
+const llmsList = meta.filter((e) => e.substack).map((e) => `- [${e.title}](${SITE}/explainers/${e.slug}/): ${e.dek}`).join("\n");
+llms = llms.replace(/(## Explainers\n\n)[\s\S]*?(\n\n## Optional)/, (_, a, b) => `${a}${llmsList}${b}`);
+await write("llms.txt", llms);
 
 console.log(`Synced ${changed} post(s); ${meta.length} entries listed.`);

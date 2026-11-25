@@ -250,7 +250,7 @@
         .map(
           ([, group]) => `
           <div class="month-group">
-            <h3 class="label group-heading tabular">${escapeHtml(formatMonthHeader(group.sampleDate))}</h3>
+            <h2 class="label group-heading tabular">${escapeHtml(formatMonthHeader(group.sampleDate))}</h2>
             <ul class="deal-list">
               ${group.items.map(renderDealRow).join("")}
             </ul>

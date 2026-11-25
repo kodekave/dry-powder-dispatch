@@ -2,7 +2,7 @@
 
 *Follow the capital. Find the frontier.* A static, editorial site on venture capital, startup financings and sector money flow. Part of [komalkedarnath.wiki](https://komalkedarnath.wiki). Plain HTML, CSS and vanilla JS, no build step.
 
-Live: https://komalkedarnath.wiki/dry-powder-dispatch/
+Live: https://dispatch.komalkedarnath.wiki/
 
 ## Structure
 ```
@@ -50,3 +50,10 @@ The mark is two curling wave crests over two ripples, drawn as a solid glyph tha
 - `assets/og-card.png` (1200x630): brand line, headline and italic pair in the reference's layout, with three stippled swells along the bottom and a brass node on a crest.
 
 The header and footer inline the glyph in every page (class `brand-mark`), so a logo change means replacing that `<svg>` in each HTML file. When changing CSS, JS or icons, bump the `?v=` token (now `20261125c`) on the links in each page so browsers drop cached copies. Palette: ink `#0e2419`, paper `#ffffff`, olive `#1b6b45`, brass `#e9ff3e`.
+
+## SEO and AI search
+
+- Canonical host is `https://dispatch.komalkedarnath.wiki` (see `CNAME`). Keep canonicals, sitemap, feed and `robots.txt` on that host.
+- After editing `data/deals.json`, run `node scripts/prerender-deals.mjs`. It writes the deals as static HTML (readable without JavaScript) and refreshes the Dataset structured data.
+- Article titles for search live in `data/explainers.json` as `seoTitle`; the on-page headline stays the Substack title.
+- `llms.txt` lists the key pages for AI assistants. Regenerate its article list when posts are added.
