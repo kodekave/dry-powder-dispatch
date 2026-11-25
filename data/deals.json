@@ -438,7 +438,9 @@
       "CapitalG"
     ],
     "source_label": "TechCrunch",
-    "source_url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+    "source_url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829",
+    "image_credit": "TechCrunch"
   },
   {
     "id": "q-ctrl",
@@ -456,7 +458,9 @@
       "Salesforce Ventures"
     ],
     "source_label": "Startup Daily",
-    "source_url": "https://www.startupdaily.net/topic/funding/quantum-of-unicorn-q-ctrl-hits-1-4-billion-valuation-from-425m-series-c/"
+    "source_url": "https://www.startupdaily.net/topic/funding/quantum-of-unicorn-q-ctrl-hits-1-4-billion-valuation-from-425m-series-c/",
+    "image": "https://assets.startupdaily.net/wp-content/uploads/sites/7/2026/11/Biercuk-White-house-2023.jpeg?quality=70&w=1312",
+    "image_credit": "Startup Daily"
   },
   {
     "id": "mirendil",
@@ -494,7 +498,9 @@
       "UK National Wealth Fund"
     ],
     "source_label": "Tech.eu",
-    "source_url": "https://tech.eu/2026/11/12/ukrainian-defence-tech-uforce-raises-700m-series-a-at-6b-valuation/"
+    "source_url": "https://tech.eu/2026/11/12/ukrainian-defence-tech-uforce-raises-700m-series-a-at-6b-valuation/",
+    "image": "https://cdn.tech.eu/uploads/2026/11/untitled-design-63-354.png",
+    "image_credit": "Tech.eu"
   },
   {
     "id": "agile-robots",
@@ -512,7 +518,9 @@
       "SoftBank"
     ],
     "source_label": "Tech Funding News",
-    "source_url": "https://techfundingnews.com/agile-robots-500m-series-f-softbank-8-5b-valuation/"
+    "source_url": "https://techfundingnews.com/agile-robots-500m-series-f-softbank-8-5b-valuation/",
+    "image": "https://techfundingnews.com/wp-content/uploads/2026/11/Agile-Robot-founder.png",
+    "image_credit": "Tech Funding News"
   },
   {
     "id": "norwest-18",
@@ -547,7 +555,9 @@
       "Redpoint"
     ],
     "source_label": "TechCrunch",
-    "source_url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+    "source_url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2183896789.jpg?resize=1200,800",
+    "image_credit": "TechCrunch"
   },
   {
     "id": "torus",
@@ -566,7 +576,9 @@
       "Magnetar"
     ],
     "source_label": "The Next Web",
-    "source_url": "https://thenextweb.com/news/torus-foundry-500m-magnetar-modular-ai-inference"
+    "source_url": "https://thenextweb.com/news/torus-foundry-500m-magnetar-modular-ai-inference",
+    "image": "https://media.thenextweb.com/2026/11/torus-foundry-modular-ai-units-salt-lake-city.jpg",
+    "image_credit": "The Next Web"
   },
   {
     "id": "path-robotics",
@@ -584,7 +596,9 @@
       "Georgian"
     ],
     "source_label": "Tech Funding News",
-    "source_url": "https://techfundingnews.com/path-robotics-arr-is-up-17x-in-18-months-why-georgian-is-backing-its-300m-series-e/"
+    "source_url": "https://techfundingnews.com/path-robotics-arr-is-up-17x-in-18-months-why-georgian-is-backing-its-300m-series-e/",
+    "image": "https://techfundingnews.com/wp-content/uploads/2026/11/Path-Robotics-.jpg",
+    "image_credit": "Tech Funding News"
   },
   {
     "id": "mercor",
@@ -605,7 +619,9 @@
       "NVIDIA"
     ],
     "source_label": "Mercor",
-    "source_url": "https://www.mercor.com/blog/series-d/"
+    "source_url": "https://www.mercor.com/blog/series-d/",
+    "image": "https://cdn.sanity.io/images/h6s14f4z/production/d187b60b17cf2729baf9f66fd3f8ddc3aa3fe71e-2290x1300.png",
+    "image_credit": "Mercor"
   },
   {
     "id": "redalpine-8",
@@ -621,7 +637,9 @@
     "region": "Europe",
     "lead_investors": [],
     "source_label": "HackerNoon",
-    "source_url": "https://hackernoon.com/redalpine-closes-oversubscribed-$250m-fund-to-back-the-science-defining-the-next-decade"
+    "source_url": "https://hackernoon.com/redalpine-closes-oversubscribed-$250m-fund-to-back-the-science-defining-the-next-decade",
+    "image": "https://hackernoon.imgix.net/images/7rEmNIeHNFOBfZZtUMQerOZIGGH3-xmf3e2w.png",
+    "image_credit": "HackerNoon"
   },
   {
     "id": "onodrim",
@@ -639,7 +657,9 @@
       "Lux Capital"
     ],
     "source_label": "Tech.eu",
-    "source_url": "https://tech.eu/2026/11/09/onodrim-industries-hits-13b-valuation-with-300m-series-a-to-strengthen-european-defence/"
+    "source_url": "https://tech.eu/2026/11/09/onodrim-industries-hits-13b-valuation-with-300m-series-a-to-strengthen-european-defence/",
+    "image": "https://cdn.tech.eu/uploads/2026/11/onodrimindustries-featured-768.png",
+    "image_credit": "Tech.eu"
   },
   {
     "id": "creandum-8",
