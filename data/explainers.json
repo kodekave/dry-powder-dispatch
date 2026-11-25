@@ -9,7 +9,9 @@
   "thumb": {
    "src": "https://cdn.prod.website-files.com/5a710020b54d350001949426/68d93f2bb6033920cd1d038a_Blog-Teal.avif",
    "credit": "Dealroom"
-  }
+  },
+  "substack": "anthropic-priced-above-its-range",
+  "url": "https://komalkedarnath.substack.com/p/anthropic-priced-above-its-range"
  },
  {
   "slug": "fed-hike-and-your-next-round",
@@ -21,7 +23,9 @@
   "thumb": {
    "src": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg",
    "credit": "Federal Reserve"
-  }
+  },
+  "substack": "the-fed-hiked-in-september-and-held",
+  "url": "https://komalkedarnath.substack.com/p/the-fed-hiked-in-september-and-held"
  },
  {
   "slug": "global-venture-october-q3-2026",
@@ -33,7 +37,9 @@
   "thumb": {
    "src": "https://news.crunchbase.com/wp-content/uploads/sep-oct.jpg",
    "credit": "Crunchbase News"
-  }
+  },
+  "substack": "october-venture-hit-59-billion-seven",
+  "url": "https://komalkedarnath.substack.com/p/october-venture-hit-59-billion-seven"
  },
  {
   "slug": "funds-closed-november-2026",
@@ -45,19 +51,23 @@
   "thumb": {
    "src": "https://hackernoon.imgix.net/images/7rEmNIeHNFOBfZZtUMQerOZIGGH3-xmf3e2w.png",
    "credit": "HackerNoon"
-  }
+  },
+  "substack": "funds-closed-this-month-norwest-raised",
+  "url": "https://komalkedarnath.substack.com/p/funds-closed-this-month-norwest-raised"
  },
  {
   "slug": "europe-best-quarter-in-four-years",
   "title": "Europe had its best quarter in four years. Four rounds made up close to 40% of it.",
-  "dek": "Crunchbase counts $25 billion for Q3. Tech.eu counts €27.8 billion. November added a $5 billion drug-discovery round and a run of defence deals.",
+  "dek": "Crunchbase counts $25 billion for Q3. Tech.eu counts &#8364;27.8 billion. November added a $5 billion drug-discovery round and a run of defence deals.",
   "date": "2026-11-25",
   "read": 4,
   "kicker": "Briefing · Europe",
   "thumb": {
    "src": "https://cdn.tech.eu/uploads/2026/10/q32026-featured-302.png",
    "credit": "Tech.eu"
-  }
+  },
+  "substack": "europe-had-its-best-quarter-in-four",
+  "url": "https://komalkedarnath.substack.com/p/europe-had-its-best-quarter-in-four"
  },
  {
   "slug": "india-more-money-fewer-deals",
@@ -69,7 +79,9 @@
   "thumb": {
    "src": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/09/Q3-Funding-social.jpg",
    "credit": "Inc42"
-  }
+  },
+  "substack": "india-more-money-fewer-deals-fewer",
+  "url": "https://komalkedarnath.substack.com/p/india-more-money-fewer-deals-fewer"
  },
  {
   "slug": "gulf-and-mena-bigger-cheques",
@@ -81,7 +93,9 @@
   "thumb": {
    "src": "https://img.semafor.com/974dfdc616597f1f4cd9dd1a167a16a8fc0024c8-5500x3096.jpg?rect=0,104,5500,2888&w=640&h=336&q=75&auto=format",
    "credit": "Semafor"
-  }
+  },
+  "substack": "mena-startups-raised-165-billion",
+  "url": "https://komalkedarnath.substack.com/p/mena-startups-raised-165-billion"
  },
  {
   "slug": "exits-without-an-ipo",
@@ -93,7 +107,9 @@
   "thumb": {
    "src": "https://cdn.tech.eu/uploads/2026/07/untitled-design-10-303.png",
    "credit": "Tech.eu"
-  }
+  },
+  "substack": "exits-without-an-ipo-tenders-secondaries",
+  "url": "https://komalkedarnath.substack.com/p/exits-without-an-ipo-tenders-secondaries"
  },
  {
   "slug": "how-money-crosses-borders-2026",
@@ -105,7 +121,9 @@
   "thumb": {
    "src": "https://www.atlanticcouncil.org/wp-content/uploads/2026/08/2025-07-17T163745Z_2091471294_MT1SIPA00009BZAT_RTRMADP_3_SIPA-USA.jpg",
    "credit": "Atlantic Council"
-  }
+  },
+  "substack": "how-money-crosses-borders-in-2026",
+  "url": "https://komalkedarnath.substack.com/p/how-money-crosses-borders-in-2026"
  },
  {
   "slug": "what-dry-powder-means",
