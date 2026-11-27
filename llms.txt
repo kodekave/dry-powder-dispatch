@@ -14,6 +14,8 @@ Also published as a newsletter on Substack (https://komalkedarnath.substack.com)
 
 ## Explainers
 
+- [A funding headline is not money in the bank](https://dispatch.komalkedarnath.wiki/explainers/a-funding-headline-is-not-money-in/): Five questions to ask before you repeat the number.
+- [You own 75%. The company sells for $30M. You could get nothing.](https://dispatch.komalkedarnath.wiki/explainers/you-own-75-the-company-sells-for/): Liquidation preferences, worked through with simple numbers.
 - [Anthropic priced above its range. Most big 2026 listings still trade below issue.](https://dispatch.komalkedarnath.wiki/explainers/anthropic-ipo-what-it-signals/): The deal raised $81.34 billion on 18 November. Of the 53 US IPOs of $1 billion or more this year, 37 sat under their issue price at the 19 November close.
 - [The Fed hiked in September and held in October, with two votes to hike again.](https://dispatch.komalkedarnath.wiki/explainers/fed-hike-and-your-next-round/): The target range sits at 3.75% to 4%. The next meeting runs 8 and 9 December.
 - [October venture hit $59 billion. Seven billion-dollar rounds took over 40% of it.](https://dispatch.komalkedarnath.wiki/explainers/global-venture-october-q3-2026/): Q3 had a record 27 rounds of $1 billion or more. The dollar totals keep rising and the list of companies behind them keeps shrinking.
